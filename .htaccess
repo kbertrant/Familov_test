@@ -1,10 +1,1 @@
-#Rewrite everything to https
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-
-RewriteEngine On
-RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /shop/product.php?country_id=$1&city_id=$2&shop_id=$3 [L]
-				
-				
+#Rewrite everything to httpsRewriteEngine On#RewriteCond %{HTTPS} !=on#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]RewriteEngine OnRewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /shop/product.php?country_id=$1&city_id=$2&shop_id=$3 [L]								

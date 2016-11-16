@@ -15,7 +15,7 @@ $customer_id = $_SESSION['customer_id'];
     }
 
 include ('food_admin/inc/database.php');
-$db = new database();
+//$db = new database('familov_com','localhost','root','root');
 ?>
 
 <!doctype html>

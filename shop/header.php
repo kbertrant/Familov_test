@@ -201,12 +201,13 @@ $customer_id = isset($_SESSION['customer_id']);
 <?php
     $sqler = "SELECT GROUP_CONCAT(order_id SEPARATOR ', ') as order_id, sum(quantity) as quantity, customer_id, ip_address, product_id, date_time, random_rick FROM orders where random_rick != 'expire' and ip_address  = '$ip_address' GROUP BY product_id";
     $queryee = mysql_query($sqler) or die(mysql_error());
+    $view_pricessws = 0;
     while ($resulterr = mysql_fetch_array($queryee)) {
-            $order_id = $resulterr[order_id];
-            $product_idrt = $resulterr[product_id];
-            $quantitywsss = $resulterr[quantity];
-            $random_rick = $resulterr[random_rick];
-            $date_time = $resulterr[date_time];
+            $order_id = $resulterr['order_id'];
+            $product_idrt = $resulterr['product_id'];
+            $quantitywsss = $resulterr['quantity'];
+            $random_rick = $resulterr['random_rick'];
+            $date_time = $resulterr['date_time'];
 
     $sqlerersingprty = "SELECT product_id, product_name,product_image,product_price_currency_id,product_prices from products where product_id = '$product_idrt'  GROUP BY product_id";
     $quereyeraignphj = mysql_query($sqlerersingprty) or die(mysql_error());
@@ -273,42 +274,3 @@ error: function(){ }
 
 </script>
 
-
-<?php/*
-// si langue déclarée par cookie et qu'il ny a pas de requete
-// pour le choix de la langue alors on choisit le cookie
-if (isset ($_COOKIE['locale']) && $_GET['lang'] != 'fr_FR' && $_GET['lang'] != 'en_US')
-{
-    $lang = $_COOKIE['locale'];
-}
-// le choix de la langue est déclaré par url
-else if ($_GET['lang'] == 'en_US' || $_GET['lang'] == 'fr_FR')
-{
-    $lang = $_GET['lang'];
-    set_cookie($lang);
-}
-// si aucune langue n'est déclarée on tente de reconnaitre
-// la langue par défaut du navigateur
-else
-{
-    $lang = substr($HTTP_SERVER_VARS['HTTP_ACCEPT_LANGUAGE'],0,2);
-    set_cookie($lang);
-}
-
-
-function set_cookie($lang)
-{
-//définition de la durée du cookie (1 an)
-    $expire = 365*24*3600;
-//enregistrement du cookie au nom de CHOIXlang + détection si erreur
-    if (setcookie("locale", $lang, time() + $expire) != TRUE)
-    {
-//     	        echo 'Le cookie na pas marché<br />';
-    }
-    else
-    {
-        setcookie("locale", $lang, time() + $expire);
-//		echo 'Le cookie a marché<br />';
-    }
-}
-?>

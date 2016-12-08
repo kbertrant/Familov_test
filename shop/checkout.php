@@ -134,18 +134,18 @@
 	$sql = "SELECT GROUP_CONCAT(order_id SEPARATOR ', ') as order_id, sum(quantity) as quantity, customer_id, ip_address, product_id, date_time, random_rick FROM orders where random_rick != 'expire' and ip_address  = '$ip_address' GROUP BY product_id";
 
     $query = mysql_query($sql) or die(mysql_error());
-
+    $view_quantity = $view_prices = 0;
     while ($result = mysql_fetch_array($query)) {
 
-			$order_id = $result[order_id] . ",";
+			$order_id = $result['order_id'] . ",";
 
-			$product_id = $result[product_id];
+			$product_id = $result['product_id'];
 
-			$quantity = $result[quantity];
+			$quantity = $result['quantity'];
 
-			$random_rick = $result[random_rick];
+			$random_rick = $result['random_rick'];
 
-			$date_time = $result[date_time];
+			$date_time = $result['date_time'];
 
 ?>
 
@@ -194,7 +194,7 @@
 
 
                                         <?php
-
+    $category_id = !empty($category_id)?$category_id:1;
 	$sqlerersingcateg = "SELECT * from categories where category_id = '$category_id'";
 
     $quereyeraigncet = mysql_query($sqlerersingcateg) or die(mysql_error());
@@ -444,6 +444,7 @@
                                     <div class="form-group">
 
                                         <label for="sfEmail">Recipient's fullname</label>
+<?php $recp_name = !empty($recp_name)?$recp_name:""; ?>
 
                                         <input type="text" class="form-control" id="recp_name" name="recp_name" value="<?php echo $recp_name; ?>" placeholder=" e.g.  Njenga Anne  " required>
 
@@ -458,7 +459,7 @@
                                     <div class="form-group">
 
                                         <label for="sfEmail">Recipient's mobile phone</label>
-
+<?php $phone_number = !empty($phone_number)?$phone_number:""; ?>
                                         <input type="text" class="form-control" id="mobile_number" name="phone_number" value="<?php echo $phone_number; ?>" placeholder="e.g. +237xxxxxxx" required>
 
                                     </div>
@@ -707,7 +708,7 @@
 			$sqlcr = "SELECT * from products where product_id = '$i_ids'";
 
 			$querysss = mysql_query($sqlcr) or die(mysql_error());
-
+            $view_prices_few = 0;
 			while ($resultsss = mysql_fetch_array($querysss)) {
 
 			 $product_name = $resultsss['product_name'];

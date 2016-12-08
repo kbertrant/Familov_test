@@ -1,1 +1,1 @@
-Bonjour, on teste le mod_rewrite d'Apache
+Bonjour, on teste le mod_rewrite d'Apache !!!

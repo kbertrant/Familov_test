@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
 
         <!-- =========================
             LOGIN SECTION
@@ -8,7 +9,7 @@
                 <div class="row">
 					<div class="col-md-1">&nbsp;</div>
                    <div class="col-md-10">
-                        <h3 class="m-t-lg m-b-0 text-left center-md">My cart</h3>
+                        <h3 class="m-t-lg m-b-0 text-left center-md"><?php echo gettext("My cart");?></h3>
 						<br />
 						
 						
@@ -26,10 +27,10 @@ if($num_dishmenusw != 0){ ?>
                         <table class="table">
 						
 						<tr>
-						<td><strong>Image</strong></td>
-						<td><strong>Product</strong></td>
-						<td><strong><center>Price</center></strong></td>
-						<td><strong><center>Quantity</center></strong></td>
+						<td><strong><?php echo gettext("Image");?></strong></td>
+						<td><strong><?php echo gettext("Product");?></strong></td>
+						<td><strong><center><?php echo gettext("Price");?></center></strong></td>
+						<td><strong><center><?php echo gettext("Quantity");?></center></strong></td>
 						<td><strong><center>Total</center></strong></td>
 						<td><strong><center>Action</center></strong></td>
 						</tr>
@@ -153,7 +154,7 @@ if($num_rows != 0){
 						<td></td>
 						<td></td>
 						<td style="width:300px"><center><br /><a id="checkout_conShop" href="<?php echo $conShopLink; ?>" class="btn btn-green">Continue to shopping</a></center></td>
-						<td><center><br/><a id="checkout" href="checkout.php" class="btn btn-green">Checkout</a></center></td>
+						<td><center><br/><a id="checkout" href="checkout.php" class="btn btn-green"><?php echo gettext("Checkout");?></a></center></td>
 						<td></td>
 						</tr>
 <?php } ?>				
@@ -164,8 +165,8 @@ if($num_rows != 0){
 						
 <?php }else{ ?>					
 	<div style=" font-size: 30px;
-    font-weight: lighter;">Your cart is actually empty</div><br /><br />
-	<a class="checkout_btn" href="index.php">Continue to shopping</a>
+    font-weight: lighter;"><?php echo gettext("Your cart is actually empty");?></div><br /><br />
+	<a class="checkout_btn" href="index.php"><?php echo gettext("Continue to shopping");?></a>
 <?php } ?>	
 						
                     </div>

@@ -1,0 +1,1079 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-12-05 05:03+0100\n"
+"PO-Revision-Date: 2016-12-05 07:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: gettext;_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "radio"
+msgstr ""
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "checkbox"
+msgstr ""
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "file"
+msgstr ""
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "password"
+msgstr ""
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "image"
+msgstr ""
+
+#: shop/abouts.php:17
+msgid "About us"
+msgstr ""
+
+#: shop/abouts.php:41
+msgid "'An entrepreneurial adventure with a real game changing mission ...'"
+msgstr ""
+
+#: shop/abouts.php:43
+msgid "Why us ?"
+msgstr ""
+
+#: shop/abouts.php:44
+msgid ""
+"Far from the major international institutions, the African diaspora remains "
+"the first donor of the  continent. In 2015, the equivalent of $ 35 billion "
+"was transferred in the form of remittances by expatriate African communities "
+"to their relatives who remained in the countries of origin. A valuable "
+"windfall, but part of the value of which remains confiscated upstream due to "
+"high commissions, which can easily exceed the 10% threshold. Sometimes 15%. "
+"A shortfall for families receiving the funds."
+msgstr ""
+
+#: shop/abouts.php:53
+msgid "About"
+msgstr ""
+
+#: shop/abouts.php:54
+msgid ""
+"Founded in 2015, the Familov start-up targets this market by proposing a "
+"different model: its online shop makes it possible to order food products "
+"online, having them delivered directly to their families in africa and in "
+"countries in the process of developement . This has the advantage of "
+"maximizing the social impact of the transfer of values to Africa."
+msgstr ""
+
+#: shop/abouts.php:68
+msgid "Our mission"
+msgstr ""
+
+#: shop/abouts.php:69
+msgid ""
+"Familov offers an alternative to money transfer companies like Western "
+"Union. Instead of sending money, this start-up offers African expatriates to "
+"deliver food to their families."
+msgstr ""
+
+#: shop/abouts.php:72
+msgid "Award"
+msgstr ""
+
+#: shop/abouts.php:73
+msgid "Social Innovation price at Google start-up Week-End Saar 2015"
+msgstr ""
+
+#: shop/abouts.php:89
+msgid "Our Value"
+msgstr ""
+
+#: shop/abouts.php:98
+msgid "Embrace Transparency"
+msgstr ""
+
+#: shop/abouts.php:99
+msgid ""
+"Familov will be straightforward, transparent and honest with our customers, "
+"partners and employees."
+msgstr ""
+
+#: shop/abouts.php:103
+msgid "Drive Towards Impact"
+msgstr ""
+
+#: shop/abouts.php:104
+msgid ""
+"Familov will have a positive impact on the lives of everyone in our "
+"ecosystem."
+msgstr ""
+
+#: shop/abouts.php:108
+msgid "Focus on the User"
+msgstr ""
+
+#: shop/abouts.php:109
+msgid ""
+"We will put the user first. Get the user experience right and wow them and "
+"everything else is much easier."
+msgstr ""
+
+#: shop/abouts.php:115
+msgid "Champion the Individual"
+msgstr ""
+
+#: shop/abouts.php:116
+msgid ""
+"We believe in the individual's right to freely participate in all forms of "
+"commerce."
+msgstr ""
+
+#: shop/abouts.php:120
+msgid "Encourage New Ideas"
+msgstr ""
+
+#: shop/abouts.php:121
+msgid ""
+"We believe that a diversity of ideas and backgrounds leads to better "
+"outcomes."
+msgstr ""
+
+#: shop/abouts.php:125
+msgid "Think Long Term"
+msgstr ""
+
+#: shop/abouts.php:126
+msgid ""
+"Familov needs to be a sustainable business in order to add the most long "
+"term value."
+msgstr ""
+
+#: shop/account_config.php:8
+msgid "My account"
+msgstr ""
+
+#: shop/account_config.php:52
+msgid "Account Configuration"
+msgstr ""
+
+#: shop/account_config.php:56
+msgid "First Name"
+msgstr ""
+
+#: shop/account_config.php:60 shop/signup.php:37
+msgid "Last Name"
+msgstr ""
+
+#: shop/account_config.php:64 shop/signup.php:42
+msgid "Email"
+msgstr ""
+
+#: shop/account_config.php:70
+msgid "Mobile Phone (for notification)"
+msgstr ""
+
+#: shop/account_config.php:77
+msgid "Address"
+msgstr ""
+
+#: shop/account_config.php:78
+msgid "Enter your home address"
+msgstr ""
+
+#: shop/account_config.php:86 shop/shop_settings.php:138
+msgid "UPDATE"
+msgstr ""
+
+#: shop/faq.php:9
+msgid "Frequently Answered Questions"
+msgstr ""
+
+#: shop/faq.php:30 shop/header.php:180 shop/orders.php:22 shop/orders.php:28
+#: shop/view_orders.php:29
+msgid "Orders"
+msgstr ""
+
+#: shop/faq.php:35
+msgid "What´s Familov.com?"
+msgstr ""
+
+#: shop/faq.php:40
+msgid ""
+"It’s all in the name. At familov.com, you can order delivery online from  "
+"local store for your family."
+msgstr ""
+
+#: shop/faq.php:47
+msgid "How do I create an account?"
+msgstr ""
+
+#: shop/faq.php:52
+msgid ""
+"On the Familov Startpage, click on Sign up (or go directly to the Create an "
+"account page). Fill out the information and your password and confirm it a "
+"second time. Your email address will directly be linked to the account. "
+msgstr ""
+
+#: shop/faq.php:59
+msgid "I have forgotten my password?"
+msgstr ""
+
+#: shop/faq.php:64
+msgid ""
+"You have already created an account but you can't remember your password? "
+"Click on 'Login' at the top of the page. Then click on 'Forgot Password?'. "
+"Fill out your email address and a new password will be sent to you by email."
+msgstr ""
+
+#: shop/faq.php:71
+msgid "How long does a delivery take?"
+msgstr ""
+
+#: shop/faq.php:76
+msgid ""
+"On average, it takes  under 36 hours from the moment when the order is "
+"placed until the moment it's delivered. The delivery time can vary from one "
+"Shop to another and depends on the number of orders the Shop has to prepare."
+msgstr ""
+
+#: shop/faq.php:83
+msgid "How much is delivery?"
+msgstr ""
+
+#: shop/faq.php:88
+msgid "We charge a flat rate of 2.95 € for delivery."
+msgstr ""
+
+#: shop/faq.php:89 shop/faq.php:190
+msgid ""
+"Familov.com is only an intermediate, between you as consumer and the Shop. "
+"Seen the low income we gain from each order, we must charge for the use of "
+"an online payment method. The costs cover the technical maintenance of the "
+"online payments, the transaction costs that banks charge and our "
+"administrative costs for processing payments.All websites charge these costs "
+"but they often directly add them to the sending and/or administrative costs. "
+"We choose to separate these costs so that only the customers willing to use "
+"an online payment method have to pay them. We thank you for your "
+"understanding."
+msgstr ""
+
+#: shop/faq.php:96
+msgid "What happens after I have placed my order?"
+msgstr ""
+
+#: shop/faq.php:102
+msgid ""
+"The order arrives in our system and  after we recieve payement, it is "
+"directly sent to the Shop (Shopper) you have ordered from . After only a few "
+"seconds the Shops receives the order by the means of our own System Shop-"
+"Connect .\n"
+"If the Shop has no working connection, your order will immediately be passed "
+"by phone by a member of our Team. This way you can always be sure that your "
+"order will be correctly sent to the chosen Shop."
+msgstr ""
+
+#: shop/faq.php:103
+msgid "Upon removal, we confirm its identity with an ID-Card and SMS code"
+msgstr ""
+
+#: shop/faq.php:105
+msgid "1-the Shop received all the details of your order"
+msgstr ""
+
+#: shop/faq.php:105
+msgid " 2-The shopper prepare immediately  your order"
+msgstr ""
+
+#: shop/faq.php:105
+msgid "3-We inform the reciever and send him a CODE per SMS"
+msgstr ""
+
+#: shop/faq.php:105
+msgid ""
+"4-You receive a confirmation peer SMS or email that your order is delivered."
+msgstr ""
+
+#: shop/faq.php:107
+msgid ""
+"NB: We have hired shop-partners and personal shoppers to deliver your "
+"products. Don’t worry, they have been individually trained and background "
+"checked. Our shoppers are trained to give best quality and will carefully "
+"and accurately make your purchase, pack your items and deliver them."
+msgstr ""
+
+#: shop/faq.php:115
+msgid "Where can I see my receipts?"
+msgstr ""
+
+#: shop/faq.php:120
+msgid ""
+"You can view your receipts one of two ways:\n"
+"                                \n"
+"                                Email: When your order is placed, you will "
+"receive an email with a receipt.\n"
+"                                From your account: on the website hover over "
+"your name in the top right hand corner and a menu will appear. Select My "
+"Orders. Click on an order number to see a detailed receipt for that order."
+msgstr ""
+
+#: shop/faq.php:130
+msgid "How is my order confirmed?"
+msgstr ""
+
+#: shop/faq.php:135
+msgid ""
+"Once you have placed your order you will receive a confirmation email sent "
+"to the email address you entered when you placed your order. Keep this email "
+"and your order number in case you have any questions or remarks regarding "
+"your order. When you have received the confirmation email, Familov does the "
+"rest. Just sit back, relax and enjoy !"
+msgstr ""
+
+#: shop/faq.php:142
+msgid "I have not received a confirmation email"
+msgstr ""
+
+#: shop/faq.php:147
+msgid ""
+"If an order number is displayed on your screen, that is an indication that "
+"your order has been submitted. The confirmation email may be in your 'spam' "
+"rather than in your inbox.\n"
+"If you don't receive an order number please contact our customer service to "
+"find the status of your order. You must provide the e-mail address you "
+"entered when ordering and the name of the selected Shop so we can find your "
+"order."
+msgstr ""
+
+#: shop/faq.php:156
+msgid "Payment"
+msgstr ""
+
+#: shop/faq.php:161
+msgid "What are the types of payment I can use?"
+msgstr ""
+
+#: shop/faq.php:173
+msgid "How secure are online payments?"
+msgstr ""
+
+#: shop/faq.php:178
+msgid ""
+"When processing online payments on Familov.com we use secure SSL pages. This "
+"means that these pages ensure the protection of your personal and payment "
+"details. This way you can be sure that this information is only visible to "
+"you and to us, for the processing of your order."
+msgstr ""
+
+#: shop/faq.php:185
+msgid "Why do I have to pay transaction costs?"
+msgstr ""
+
+#: shop/faq.php:197
+msgid "My online payment failed"
+msgstr ""
+
+#: shop/faq.php:202
+msgid ""
+"If you think the online payment has failed, always check if you have "
+"received a confirmation email. This email will enable you to see if your "
+"order has been submitted and if the order is already paid for or not.\n"
+"The confirmation email is directly sent once the payment is complete. This "
+"may take a little longer if the payment is being processed by the bank, the "
+"credit card company or any other payment company. This can take up to 15 "
+"minutes.\n"
+"If after 15 minutes you still have no confirmation email in your inbox, "
+"contact our customer service. They will tell you if the order and the "
+"payment have succeeded."
+msgstr ""
+
+#: shop/faq.php:211
+msgid "I have many more questions for you?"
+msgstr ""
+
+#: shop/faq.php:216
+msgid "Contact us! We will be there at hello@familov.com"
+msgstr ""
+
+#: shop/faq.php:231
+msgid "How can we help you today?"
+msgstr ""
+
+#: shop/faq.php:233
+msgid "Email Your Question"
+msgstr ""
+
+#: shop/footer.php:35 shop/header.php:148 shop/index.php:165
+msgid "How it works"
+msgstr ""
+
+#: shop/footer.php:36
+msgid "Support"
+msgstr ""
+
+#: shop/footer.php:37
+msgid "Terms"
+msgstr ""
+
+#: shop/footer.php:38
+msgid "Privacy"
+msgstr ""
+
+#: shop/footer.php:58
+msgid "For Businesses"
+msgstr ""
+
+#: shop/footer.php:83
+msgid "Made with"
+msgstr ""
+
+#: shop/footer.php:83
+msgid " in Saarbrücken"
+msgstr ""
+
+#: shop/header.php:32
+msgid "FAMILOV | Food and groceries instead of money transfert"
+msgstr ""
+
+#: shop/header.php:146
+msgid "Newsletter"
+msgstr ""
+
+#: shop/header.php:150
+msgid "Help?"
+msgstr ""
+
+#: shop/header.php:172 shop/login.php:67 shop/newsletter.php:129
+msgid "Sign up"
+msgstr ""
+
+#: shop/header.php:173
+msgid "Log in"
+msgstr ""
+
+#: shop/header.php:178
+msgid "Welcome: "
+msgstr ""
+
+#: shop/header.php:181
+msgid "My Account"
+msgstr ""
+
+#: shop/header.php:182
+msgid "Go To New Shop"
+msgstr ""
+
+#: shop/header.php:183
+msgid "Logout"
+msgstr ""
+
+#: shop/header.php:227 shop/view_cart.php:12
+msgid "My cart"
+msgstr ""
+
+#: shop/header.php:233
+msgid "French"
+msgstr ""
+
+#: shop/header.php:234
+msgid "English"
+msgstr ""
+
+#: shop/how.php:11
+msgid "How it s Works"
+msgstr ""
+
+#: shop/how.php:34
+msgid "Send in 3 easy steps"
+msgstr ""
+
+#: shop/how.php:38
+msgid "It is not always easy to send money home."
+msgstr ""
+
+#: shop/how.php:38
+msgid ""
+"We offer you a new way to help your family and be sure that they are well "
+"cared."
+msgstr ""
+
+#: shop/how.php:39
+msgid "Cheaper. Better. Enjoy."
+msgstr ""
+
+#: shop/how.php:48
+msgid "Order easily"
+msgstr ""
+
+#: shop/how.php:49
+msgid ""
+"Fill your cart in reciever near store and give us his name and mobile phone."
+msgstr ""
+
+#: shop/how.php:58 shop/index.php:188
+msgid "Pay securely"
+msgstr ""
+
+#: shop/how.php:59 shop/index.php:189
+msgid "You pay easily and securely with Credit Card, PayPal or direct debit"
+msgstr ""
+
+#: shop/how.php:68
+msgid "Order prepare"
+msgstr ""
+
+#: shop/how.php:69
+msgid "We send local store your order details and send an"
+msgstr ""
+
+#: shop/how.php:69
+msgid " to reciever"
+msgstr ""
+
+#: shop/how.php:76
+msgid "reciever get delivery"
+msgstr ""
+
+#: shop/how.php:77
+msgid ""
+"The Shopper prepare and inform reciever to pickup order from delivery point"
+msgstr ""
+
+#: shop/how.php:84
+msgid "Create an account"
+msgstr ""
+
+#: shop/index.php:17
+msgid "No matter where you are"
+msgstr ""
+
+#: shop/index.php:17
+msgid "be present for everyday event"
+msgstr ""
+
+#: shop/index.php:19
+msgid "It is not always easy to send money home. We offer you  a new way"
+msgstr ""
+
+#: shop/index.php:19
+msgid " to help your family and be sure that they are well cared."
+msgstr ""
+
+#: shop/index.php:19
+msgid "Cheaper. Safer. Better. "
+msgstr ""
+
+#: shop/index.php:34
+msgid "Quick and easy select a Shop near Home!"
+msgstr ""
+
+#: shop/index.php:40
+msgid "Reciever´s country"
+msgstr ""
+
+#: shop/index.php:72
+msgid "Reciever´s city"
+msgstr ""
+
+#: shop/index.php:87
+msgid "Choose a shop"
+msgstr ""
+
+#: shop/index.php:102
+msgid "Order now"
+msgstr ""
+
+#: shop/index.php:169
+msgid "Send money home is not  easy."
+msgstr ""
+
+#: shop/index.php:169
+msgid "Buy online here and your family"
+msgstr ""
+
+#: shop/index.php:169
+msgid "Withdraws the order home."
+msgstr ""
+
+#: shop/index.php:178
+msgid "Order online"
+msgstr ""
+
+#: shop/index.php:179
+msgid ""
+"Fill your cart in a store  near home and give us recievers name and phone. "
+msgstr ""
+
+#: shop/index.php:198
+msgid "Code per SMS"
+msgstr ""
+
+#: shop/index.php:199
+msgid " We send local store your order details and send an"
+msgstr ""
+
+#: shop/index.php:199
+msgid "CODE per SMS"
+msgstr ""
+
+#: shop/index.php:199
+msgid " to recievers"
+msgstr ""
+
+#: shop/index.php:206
+msgid " Get delivery"
+msgstr ""
+
+#: shop/index.php:207
+msgid ""
+"Order is prepared and  your family withdraw the order in Store or get "
+"delivery"
+msgstr ""
+
+#: shop/index.php:265
+msgid "Create your account"
+msgstr ""
+
+#: shop/index.php:301
+msgid "What People Are Saying About Us"
+msgstr ""
+
+#: shop/index.php:303
+msgid "Meet our happy clients and find out why"
+msgstr ""
+
+#: shop/index.php:303
+msgid "Familov is their preferred choice."
+msgstr ""
+
+#: shop/index.php:325
+msgid ""
+"I order food for my mom on Familov from Germany to Cameroon. It is faster, "
+"cheaper and more reliable than anything I‘ve ever tried before."
+msgstr ""
+
+#: shop/index.php:333
+msgid "Student,Germany"
+msgstr ""
+
+#: shop/index.php:349
+msgid ""
+"It works very well and what a good idea it is.One of those things where "
+"everybody says „Why didn‘t I think of this before?“. It is just amazing."
+msgstr ""
+
+#: shop/index.php:355
+msgid "Engineer, Germany"
+msgstr ""
+
+#: shop/index.php:371
+msgid ""
+"I really love and enjoy this way to help my family at home. The "
+"notifications and trackability of my orders are giving me peace of mind. "
+"Thank you."
+msgstr ""
+
+#: shop/index.php:377
+msgid "Nurse, France"
+msgstr ""
+
+#: shop/index.php:398
+msgid "featured on:"
+msgstr ""
+
+#: shop/index.php:439
+msgid ""
+"I lives in Germany since 4 years and I work so hard everyday to help my "
+"family, but for many reasons is not always easy for me to send money home. "
+"Familov offer me a new way to take care of my loves and now I really enjoy "
+"because I can do more for them  everyday ."
+msgstr ""
+
+#: shop/index.php:472
+msgid "Be a Familover"
+msgstr ""
+
+#: shop/job.php:10
+msgid "Why join us?"
+msgstr ""
+
+#: shop/job.php:34
+msgid " Be part of a young, ambitious,  dynamic team."
+msgstr ""
+
+#: shop/job.php:35
+msgid ""
+"Participate in the development of an innovative project with strong "
+"international potential. "
+msgstr ""
+
+#: shop/job.php:36
+msgid ""
+"Take part in an entrepreneurial adventure with a real game changing mission "
+"'Geld tranfert alternative !'"
+msgstr ""
+
+#: shop/login.php:38
+msgid "Welcome Back !"
+msgstr ""
+
+#: shop/login.php:49
+msgid "My Email"
+msgstr ""
+
+#: shop/login.php:54 shop/signup.php:53
+msgid "Password"
+msgstr ""
+
+#: shop/login.php:59
+msgid "LOGIN"
+msgstr ""
+
+#: shop/login.php:63
+msgid "Forgot your password?"
+msgstr ""
+
+#: shop/login.php:67 shop/newsletter.php:129
+msgid "Don't have an account?"
+msgstr ""
+
+#: shop/login.php:69
+msgid " Fast checkout "
+msgstr ""
+
+#: shop/login.php:70 shop/newsletter.php:132
+msgid " See all your orders"
+msgstr ""
+
+#: shop/login.php:71 shop/newsletter.php:133
+msgid " Fast re-order"
+msgstr ""
+
+#: shop/login.php:72 shop/newsletter.php:134
+msgid " Be secure"
+msgstr ""
+
+#: shop/login.php:73 shop/newsletter.php:135
+msgid "Get exclusive deals"
+msgstr ""
+
+#: shop/merchant.php:9
+msgid "Merchants"
+msgstr ""
+
+#: shop/newsletter.php:16
+msgid "Register to newsletter"
+msgstr ""
+
+#: shop/newsletter.php:98
+msgid "NEWSLETTER !"
+msgstr ""
+
+#: shop/newsletter.php:109
+msgid "Your Email Address"
+msgstr ""
+
+#: shop/newsletter.php:113
+msgid "Your choice"
+msgstr ""
+
+#: shop/newsletter.php:114
+msgid "Register"
+msgstr ""
+
+#: shop/newsletter.php:115
+msgid "Unregister"
+msgstr ""
+
+#: shop/newsletter.php:119
+msgid "Send"
+msgstr ""
+
+#: shop/newsletter.php:120
+msgid "Reset"
+msgstr ""
+
+#: shop/newsletter.php:131
+msgid "Receive all informations"
+msgstr ""
+
+#: shop/orders.php:35 shop/view_orders.php:37
+msgid "Order Code"
+msgstr ""
+
+#: shop/orders.php:35
+msgid "Recipient Name"
+msgstr ""
+
+#: shop/orders.php:35
+msgid "Phone Number"
+msgstr ""
+
+#: shop/orders.php:36 shop/products.php:152 shop/view_cart.php:31
+#: shop/view_orders.php:38 shop/view_products.php:20
+msgid "Product"
+msgstr ""
+
+#: shop/orders.php:37 shop/products.php:331 shop/view_cart.php:32
+#: shop/view_orders.php:39 shop/view_products.php:22
+msgid "Price"
+msgstr ""
+
+#: shop/orders.php:38
+msgid "Total"
+msgstr ""
+
+#: shop/orders.php:39
+msgid "Grand Total"
+msgstr ""
+
+#: shop/orders.php:40 shop/view_orders.php:42
+msgid "Date Time"
+msgstr ""
+
+#: shop/orders.php:41
+msgid "Status"
+msgstr ""
+
+#: shop/orders.php:218
+msgid "Delivery Charges: "
+msgstr ""
+
+#: shop/orders.php:239
+msgid "Change Order Status"
+msgstr ""
+
+#: shop/orders.php:240
+msgid "Wait"
+msgstr ""
+
+#: shop/orders.php:241
+msgid "Buy"
+msgstr ""
+
+#: shop/orders.php:242
+msgid "Deliveret"
+msgstr ""
+
+#: shop/price.php:15
+msgid "Price Guarantee"
+msgstr ""
+
+#: shop/product.php:109 shop/product.php:111
+msgid "All"
+msgstr ""
+
+#: shop/products.php:171
+msgid "Product Name"
+msgstr ""
+
+#: shop/products.php:185 shop/products.php:330 shop/view_categories.php:37
+#: shop/view_products.php:21
+msgid "Category"
+msgstr ""
+
+#: shop/products.php:206
+msgid "Product Short Description"
+msgstr ""
+
+#: shop/products.php:215
+msgid "Product Description"
+msgstr ""
+
+#: shop/products.php:238
+msgid "Product Image"
+msgstr ""
+
+#: shop/products.php:246
+msgid "DELETE"
+msgstr ""
+
+#: shop/products.php:261
+msgid "Product Price"
+msgstr ""
+
+#: shop/products.php:274 shop/products.php:332
+msgid "Shop"
+msgstr ""
+
+#: shop/products.php:322
+msgid "Products"
+msgstr ""
+
+#: shop/products.php:329
+msgid "Name"
+msgstr ""
+
+#: shop/products.php:333
+msgid "Edit / Delete"
+msgstr ""
+
+#: shop/products.php:397 shop/view_categories.php:53 shop/view_products.php:67
+msgid "Edit"
+msgstr ""
+
+#: shop/products.php:397 shop/view_products.php:67
+msgid "Delete"
+msgstr ""
+
+#: shop/shop_settings.php:38
+msgid "Shop Information"
+msgstr ""
+
+#: shop/shop_settings.php:42
+msgid "Shop Name"
+msgstr ""
+
+#: shop/shop_settings.php:46
+msgid "Shop Address"
+msgstr ""
+
+#: shop/shop_settings.php:52
+msgid "Shop Country"
+msgstr ""
+
+#: shop/shop_settings.php:54
+msgid "Select a Country"
+msgstr ""
+
+#: shop/shop_settings.php:71
+msgid "Shop City"
+msgstr ""
+
+#: shop/shop_settings.php:75
+msgid "Select a City"
+msgstr ""
+
+#: shop/shop_settings.php:87
+msgid "Shop LOGO"
+msgstr ""
+
+#: shop/shop_settings.php:111
+msgid "Shop Banner"
+msgstr ""
+
+#: shop/shopper.php:15
+msgid "Sell on Familov"
+msgstr ""
+
+#: shop/signup.php:15
+msgid "Create your account."
+msgstr ""
+
+#: shop/signup.php:15
+msgid " It's Free."
+msgstr ""
+
+#: shop/signup.php:16
+msgid "FREE"
+msgstr ""
+
+#: shop/signup.php:16
+msgid "charge  on your first order over"
+msgstr ""
+
+#: shop/signup.php:30
+msgid " First  Name"
+msgstr ""
+
+#: shop/signup.php:48
+msgid "Mobile Phone (For notification)"
+msgstr ""
+
+#: shop/signup.php:58
+msgid "Re-Password"
+msgstr ""
+
+#: shop/signup.php:74
+msgid "Create my Familov account"
+msgstr ""
+
+#: shop/signup.php:77
+msgid "By clicking Signup you agree to the"
+msgstr ""
+
+#: shop/signup.php:77
+msgid " and"
+msgstr ""
+
+#: shop/signup.php:78
+msgid " Already have a Familov account? "
+msgstr ""
+
+#: shop/signup.php:78
+msgid "Sign in"
+msgstr ""
+
+#: shop/success.php:93
+msgid "Thank you, for your order to "
+msgstr ""
+
+#: shop/success.php:98
+msgid "Your Order ID is: "
+msgstr ""
+
+#: shop/success.php:98
+msgid " you will receive on Email and sms about your order soon. "
+msgstr ""
+
+#: shop/success.php:99
+msgid "Thank you for shooping at "
+msgstr ""
+
+#: shop/success.php:102
+msgid "HOME"
+msgstr ""
+
+#: shop/view_cart.php:30 shop/view_products.php:19
+msgid "Image"
+msgstr ""
+
+#: shop/view_cart.php:33
+msgid "Quantity"
+msgstr ""
+
+#: shop/view_cart.php:157
+msgid "Checkout"
+msgstr ""
+
+#: shop/view_cart.php:168
+msgid "Your cart is actually empty"
+msgstr ""
+
+#: shop/view_cart.php:169
+msgid "Continue to shopping"
+msgstr ""
+
+#: shop/view_categories.php:30
+msgid "My Categories"
+msgstr ""
+
+#: shop/view_orders.php:9
+msgid "Order History"
+msgstr ""
+
+#: shop/view_orders.php:173
+msgid "Fees: "
+msgstr ""
+
+#: shop/view_products.php:12
+msgid "My Products"
+msgstr ""
+
+#: shop/view_products_total.php:109
+msgid "Actual Price:"
+msgstr ""
+
+#: shop/view_products_total.php:111
+msgid " Add to cart"
+msgstr ""
+
+#: shop/view_products_total.php:164
+msgid "No products were found matching your selection."
+msgstr ""

@@ -5,7 +5,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1 text-center">
-                                    <h1 class="text-white">My account</h1>
+                                    <h1 class="text-white"><?php echo gettext("My account");?></h1>
                                    
                                     
                                     <!--<a href="#pricing6-1" class="btn btn-shadow btn-green btn-lg smooth-scroll m-b-md">RESERVE YOUR SEAT</a>-->
@@ -49,33 +49,33 @@
                 <div class="row">
 					<div class="col-md-3">&nbsp;</div>
                    <div class="col-md-6">
-                        <h4 class="m-t-lg m-b-0 text-left center-md">Account Configuration</h4>
+                        <h4 class="m-t-lg m-b-0 text-left center-md"><?php echo gettext("Account Configuration");?></h4>
 						<br />
                         <div class="form-horizontal" role="form">
                             <div class="form-group"  >
-                                <label for="sfEmail">First Name</label>
+                                <label for="sfEmail"><?php echo gettext("First Name");?></label>
                                 <input type="text" class="form-control" id="username" name="username" value="<?php echo $username; ?>" placeholder="Enter your first name" required>
                             </div>
 							<div class="form-group"  >
-                                <label for="sfEmail">Last Name</label>
-                                <input type="text" class="form-control" id="lastname" name="lastname" value="<?php echo $lastname; ?>" placeholder="Enter your last name" required>
+                                <label for="sfEmail"><?php echo gettext("Last Name");?></label>
+                                <input type="text" class="form-control" id="lastname" name="lastname" value="<?php $lastname=""; echo $lastname; ?>" placeholder="Enter your last name" required>
                             </div>
 							 <div class="form-group">
-                                <label for="sfEmail">Email </label>
-                                <input type="email" class="form-control" id="email_address" disabled name="email_address" value="<?php echo $email_address; ?>" placeholder="Enter your email address" required>
+                                <label for="sfEmail"><?php echo gettext("Email");?> </label>
+                                <input type="email" class="form-control" id="email_address" disabled name="email_address" value="<?php $email_address=""; echo $email_address; ?>" placeholder="Enter your email address" required>
                             </div>
 							
 							
 							 <div class="form-group">
-                                <label for="sfSenderNumber">Mobile Phone (for notification) </label>
-                                <input type="text" class="form-control" id="sender_number" name="sender_number" value="<?php echo $sender_number; ?>" placeholder="8801924674122" required>
+                                <label for="sfSenderNumber"><?php echo gettext("Mobile Phone (for notification)");?> </label>
+                                <input type="text" class="form-control" id="sender_number" name="sender_number" value="<?php $sender_number=""; echo $sender_number; ?>" placeholder="8801924674122" required>
                             </div>
 														
 							
 							
 						<div class="form-group">
-                                <label for="sfPassword">Address</label>
-                                 <textarea type="text" class="form-control" id="home_address" name="home_address" placeholder="Enter your home address" required><?php echo $home_address; ?></textarea>
+                                <label for="sfPassword"><?php echo gettext("Address");?></label>
+                                 <textarea type="text" class="form-control" id="home_address" name="home_address" placeholder="<?php echo gettext("Enter your home address");?>" required><?php $home_address=""; echo $home_address; ?></textarea>
                             </div>
 					
 					
@@ -83,7 +83,7 @@
 					
 							
                             <div class="form-group">
-								<button type="submit"  onclick="valiDaccount()" class="btn btn-blue">UPDATE</button>
+								<button type="submit"  onclick="valiDaccount()" class="btn btn-blue"><?php echo gettext("UPDATE");?></button>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
 		
 		
 		
-<?php if($country_id != 0  && $country_id != ""){ ?>
+<?php $country_id=""; if($country_id != 0  && $country_id != ""){ ?>
 <input type="text" id="country_idd" name="country_idd" value="<?php echo $country_id; ?>">
 <script type="text/javascript">
 jQuery(document).ready(function()

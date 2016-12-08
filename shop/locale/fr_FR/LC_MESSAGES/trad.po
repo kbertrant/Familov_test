@@ -1,0 +1,1740 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-12-06 01:07+0100\n"
+"PO-Revision-Date: 2016-12-06 01:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: gettext;_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "radio"
+msgstr "radio"
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "checkbox"
+msgstr "checkbox"
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "file"
+msgstr "fichier"
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "password"
+msgstr "mot de passe"
+
+#: shop/food_admin/js/js1/jquery-1.8.1.min.js:2
+msgid "image"
+msgstr "image"
+
+#: shop/abouts.php:17
+msgid "About us"
+msgstr "A propos de nous"
+
+#: shop/abouts.php:41
+msgid "'An entrepreneurial adventure with a real game changing mission ...'"
+msgstr ""
+"'Une aventure entrepreneuriale avec un enjeu réel qui change la mission...' "
+
+#: shop/abouts.php:43
+msgid "Why us ?"
+msgstr "Pourquoi nous ?"
+
+#: shop/abouts.php:44
+msgid ""
+"Far from the major international institutions, the African diaspora remains "
+"the first donor of the  continent. In 2015, the equivalent of $ 35 billion "
+"was transferred in the form of remittances by expatriate African communities "
+"to their relatives who remained in the countries of origin. A valuable "
+"windfall, but part of the value of which remains confiscated upstream due to "
+"high commissions, which can easily exceed the 10% threshold. Sometimes 15%. "
+"A shortfall for families receiving the funds."
+msgstr ""
+"Loin des grandes institutions internationales, la diaspora africaine reste "
+"le premier donateur du continent. En 2015, l'équivalent de 35 milliards de "
+"dollars a été transféré sous forme de transferts de fonds par des "
+"communautés africaines expatriées à leurs proches restés dans les pays "
+"d'origine. Un gain inestimable, mais dont une partie de la valeur reste "
+"confisquée en amont en raison de commissions élevées, qui peuvent facilement "
+"dépasser le seuil de 10%. Parfois, 15%. Un manque à gagner pour les familles "
+"qui reçoivent les fonds."
+
+#: shop/abouts.php:53 shop/footer.php:46
+msgid "About"
+msgstr "A propos"
+
+#: shop/abouts.php:54
+msgid ""
+"Founded in 2015, the Familov start-up targets this market by proposing a "
+"different model: its online shop makes it possible to order food products "
+"online, having them delivered directly to their families in africa and in "
+"countries in the process of developement . This has the advantage of "
+"maximizing the social impact of the transfer of values to Africa."
+msgstr ""
+"Fondée en 2015, la start-up Familov cible ce marché en proposant un modèle "
+"différent: sa boutique en ligne permet de commander des produits "
+"alimentaires en ligne, en les livrant directement à leurs familles en "
+"Afrique et dans les pays en développement. Cela a l'avantage de maximiser "
+"l'impact social du transfert de valeurs vers l'Afrique."
+
+#: shop/abouts.php:68
+msgid "Our mission"
+msgstr "Notre mission"
+
+#: shop/abouts.php:69
+msgid ""
+"Familov offers an alternative to money transfer companies like Western "
+"Union. Instead of sending money, this start-up offers African expatriates to "
+"deliver food to their families."
+msgstr ""
+"Familov offre une alternative aux sociétés de transfert d'argent comme "
+"Western Union. Au lieu d'envoyer de l'argent, cette start-up offre aux "
+"expatriés africains de livrer de la nourriture à leurs familles."
+
+#: shop/abouts.php:72
+msgid "Award"
+msgstr "Récompense"
+
+#: shop/abouts.php:73
+msgid "Social Innovation price at Google start-up Week-End Saar 2015"
+msgstr "Prix de l'innovation sociale au démarrage de Google Week-End Saar 2015"
+
+#: shop/abouts.php:89
+msgid "Our Value"
+msgstr "Nos valeurs"
+
+#: shop/abouts.php:98
+msgid "Embrace Transparency"
+msgstr "Contenir la transparence"
+
+#: shop/abouts.php:99
+msgid ""
+"Familov will be straightforward, transparent and honest with our customers, "
+"partners and employees."
+msgstr ""
+"Familov sera simple, transparent et honnête avec ses clients, partenaires et "
+"employés."
+
+#: shop/abouts.php:103
+msgid "Drive Towards Impact"
+msgstr "Conduire une influence"
+
+#: shop/abouts.php:104
+msgid ""
+"Familov will have a positive impact on the lives of everyone in our "
+"ecosystem."
+msgstr ""
+"Familov aura un impact positif sur chacun de nous dans son environnement."
+
+#: shop/abouts.php:108
+msgid "Focus on the User"
+msgstr "Centré sur les clients"
+
+#: shop/abouts.php:109
+msgid ""
+"We will put the user first. Get the user experience right and wow them and "
+"everything else is much easier."
+msgstr ""
+"Priorité aux clients. Avoir une bonne expérience utilisateur et tout devient "
+"plus facile."
+
+#: shop/abouts.php:115
+msgid "Champion the Individual"
+msgstr "Combattre l'individualisme"
+
+#: shop/abouts.php:116
+msgid ""
+"We believe in the individual's right to freely participate in all forms of "
+"commerce."
+msgstr ""
+"Nous croyons au droit de l'individu de participer librement à toutes les "
+"formes de commerce."
+
+#: shop/abouts.php:120
+msgid "Encourage New Ideas"
+msgstr "Encourager les idées nouvelles"
+
+#: shop/abouts.php:121
+msgid ""
+"We believe that a diversity of ideas and backgrounds leads to better "
+"outcomes."
+msgstr ""
+"Nous croyons que la diversité des idées et des antécédents mène à de "
+"meilleurs résultats."
+
+#: shop/abouts.php:125
+msgid "Think Long Term"
+msgstr "Penser à long terme"
+
+#: shop/abouts.php:126
+msgid ""
+"Familov needs to be a sustainable business in order to add the most long "
+"term value."
+msgstr "Familov est un business durable"
+
+#: shop/account_config.php:8
+msgid "My account"
+msgstr "Mon compte"
+
+#: shop/account_config.php:52
+msgid "Account Configuration"
+msgstr "Configuration du compte"
+
+#: shop/account_config.php:56
+msgid "First Name"
+msgstr "Nom"
+
+#: shop/account_config.php:60 shop/signup.php:37
+msgid "Last Name"
+msgstr "Prénom"
+
+#: shop/account_config.php:64 shop/signup.php:42
+msgid "Email"
+msgstr "Email"
+
+#: shop/account_config.php:70
+msgid "Mobile Phone (for notification)"
+msgstr "Téléphone"
+
+#: shop/account_config.php:77
+msgid "Address"
+msgstr "Adresse"
+
+#: shop/account_config.php:78
+msgid "Enter your home address"
+msgstr "Entrer votre adresse"
+
+#: shop/account_config.php:86 shop/shop_settings.php:138
+msgid "UPDATE"
+msgstr "Modifier"
+
+#: shop/faq.php:9
+msgid "Frequently Answered Questions"
+msgstr "Réponses aux questions courantes"
+
+#: shop/faq.php:30 shop/header.php:180 shop/orders.php:22 shop/orders.php:28
+#: shop/view_orders.php:29
+msgid "Orders"
+msgstr "Commandes"
+
+#: shop/faq.php:35
+msgid "What´s Familov.com?"
+msgstr "Qu'est ce que Familov.com ?"
+
+#: shop/faq.php:40
+msgid ""
+"It’s all in the name. At familov.com, you can order delivery online from  "
+"local store for your family."
+msgstr ""
+"Tout est dans le nom. Chez familov.com, vous pouvez commander la livraison "
+"en ligne à partir d'un magasin local pour votre famille."
+
+#: shop/faq.php:47
+msgid "How do I create an account?"
+msgstr "Comment créer un compte ?"
+
+#: shop/faq.php:52
+msgid ""
+"On the Familov Startpage, click on Sign up (or go directly to the Create an "
+"account page). Fill out the information and your password and confirm it a "
+"second time. Your email address will directly be linked to the account. "
+msgstr ""
+"Sur la page de démarrage Familov, cliquez sur Inscrivez-vous (ou allez "
+"directement à la page Créer un compte). Remplissez les informations et votre "
+"mot de passe et confirmez-les une seconde fois. Votre adresse de courriel "
+"sera directement liée au compte."
+
+#: shop/faq.php:59
+msgid "I have forgotten my password?"
+msgstr "J'ai oublié mon mot de passe ?"
+
+#: shop/faq.php:64
+msgid ""
+"You have already created an account but you can't remember your password? "
+"Click on 'Login' at the top of the page. Then click on 'Forgot Password?'. "
+"Fill out your email address and a new password will be sent to you by email."
+msgstr ""
+"Vous avez déjà créé un compte mais vous ne pouvez pas vous rappeler de votre "
+"mot de passe? Cliquez sur «Connexion» en haut de la page. Puis cliquez sur "
+"'Mot de passe oublié?'. Remplissez votre adresse e-mail et un nouveau mot de "
+"passe vous sera envoyé par e-mail."
+
+#: shop/faq.php:71
+msgid "How long does a delivery take?"
+msgstr "Quelle durée pour être livré ? "
+
+#: shop/faq.php:76
+msgid ""
+"On average, it takes  under 36 hours from the moment when the order is "
+"placed until the moment it's delivered. The delivery time can vary from one "
+"Shop to another and depends on the number of orders the Shop has to prepare."
+msgstr ""
+"En moyenne, il prend moins de 36 heures à partir du moment où la commande "
+"est placée jusqu'au moment où elle est livrée. Le délai de livraison peut "
+"varier d'une boutique à l'autre et dépend du nombre de commandes que la "
+"boutique doit préparer."
+
+#: shop/faq.php:83
+msgid "How much is delivery?"
+msgstr "Combien coute une livraison ?"
+
+#: shop/faq.php:88
+msgid "We charge a flat rate of 2.95 € for delivery."
+msgstr "Nous augmentons une commission de 2.95 € pour la livraison."
+
+#: shop/faq.php:89 shop/faq.php:190
+msgid ""
+"Familov.com is only an intermediate, between you as consumer and the Shop. "
+"Seen the low income we gain from each order, we must charge for the use of "
+"an online payment method. The costs cover the technical maintenance of the "
+"online payments, the transaction costs that banks charge and our "
+"administrative costs for processing payments.All websites charge these costs "
+"but they often directly add them to the sending and/or administrative costs. "
+"We choose to separate these costs so that only the customers willing to use "
+"an online payment method have to pay them. We thank you for your "
+"understanding."
+msgstr ""
+"Familov.com est seulement un intermédiaire, entre vous en tant que "
+"consommateur et la Boutique. Vu le faible revenu que nous gagnons de chaque "
+"commande, nous devons facturer pour l'utilisation d'une méthode de paiement "
+"en ligne. Les coûts couvrent l'entretien technique des paiements en ligne, "
+"les coûts de transaction que les banques facturent et nos frais "
+"administratifs pour le traitement des paiements. Tous les sites facturent "
+"ces coûts, mais ils les ajoutent souvent directement aux frais d'envoi et / "
+"ou d'administration. Nous choisissons de séparer ces coûts afin que seuls "
+"les clients disposés à utiliser une méthode de paiement en ligne doivent les "
+"payer. Nous vous remercions pour votre compréhension."
+
+#: shop/faq.php:96
+msgid "What happens after I have placed my order?"
+msgstr "Que faire après avoir envoyé ma commande ? "
+
+#: shop/faq.php:102
+msgid ""
+"The order arrives in our system and  after we recieve payement, it is "
+"directly sent to the Shop (Shopper) you have ordered from . After only a few "
+"seconds the Shops receives the order by the means of our own System Shop-"
+"Connect .\n"
+"If the Shop has no working connection, your order will immediately be passed "
+"by phone by a member of our Team. This way you can always be sure that your "
+"order will be correctly sent to the chosen Shop."
+msgstr ""
+"L'ordre arrive dans notre système et après que nous recevons le paiement, il "
+"est envoyé directement à la boutique (Boutiquier) que vous avez commandé. "
+"Après seulement quelques secondes, les magasins reçoivent l'ordre par le "
+"biais de notre propre système Shop-Connect.\n"
+"Si la boutique n'a aucun lien de travail, votre commande sera immédiatement "
+"transmise par téléphone par un membre de notre équipe. De cette façon, vous "
+"pouvez toujours être sûr que votre commande sera envoyée correctement à la "
+"boutique choisie."
+
+#: shop/faq.php:103
+msgid "Upon removal, we confirm its identity with an ID-Card and SMS code"
+msgstr ""
+"Lors de la suppression, nous confirmons son identité avec une carte "
+"d'identité et un code SMS"
+
+#: shop/faq.php:105
+msgid "1-the Shop received all the details of your order"
+msgstr "1- la boutique reçois tous les détails de votre commande"
+
+#: shop/faq.php:105
+msgid " 2-The shopper prepare immediately  your order"
+msgstr "2-Le boutiquier prépare immédiatement votre commande"
+
+#: shop/faq.php:105
+msgid "3-We inform the reciever and send him a CODE per SMS"
+msgstr "Nous informons le bénéficiaire et lui envoyons un CODE par SMS"
+
+#: shop/faq.php:105
+msgid ""
+"4-You receive a confirmation peer SMS or email that your order is delivered."
+msgstr ""
+"4-Vous recevez une confirmation par SMS ou email sur la livraison de votre "
+"commande."
+
+#: shop/faq.php:107
+msgid ""
+"NB: We have hired shop-partners and personal shoppers to deliver your "
+"products. Don’t worry, they have been individually trained and background "
+"checked. Our shoppers are trained to give best quality and will carefully "
+"and accurately make your purchase, pack your items and deliver them."
+msgstr ""
+"NB: Nous avons engagé des partenaires de magasin et des acheteurs personnels "
+"pour livrer vos produits. Ne vous inquiétez pas, ils ont été formés "
+"individuellement et les antécédents vérifiés. Nos acheteurs sont formés pour "
+"donner la meilleure qualité et soigneusement et exactement faire votre "
+"achat, emballer vos articles et les livrer."
+
+#: shop/faq.php:115
+msgid "Where can I see my receipts?"
+msgstr "Ou est ce que je peux voir mon accusé de réception ?"
+
+#: shop/faq.php:120
+msgid ""
+"You can view your receipts one of two ways:\n"
+"                                \n"
+"                                Email: When your order is placed, you will "
+"receive an email with a receipt.\n"
+"                                From your account: on the website hover over "
+"your name in the top right hand corner and a menu will appear. Select My "
+"Orders. Click on an order number to see a detailed receipt for that order."
+msgstr ""
+"Vous pouvez afficher vos reçus de deux façons:\n"
+"                                \n"
+"                                 Courriel: Lorsque votre commande est "
+"passée, vous recevrez un courriel avec un reçu.\n"
+"                                 De votre compte: sur le site, placez le "
+"curseur sur votre nom dans le coin supérieur droit et un menu apparaîtra. "
+"Sélectionnez Mes commandes. Cliquez sur un numéro de commande pour afficher "
+"un reçu détaillé de cet ordre."
+
+#: shop/faq.php:130
+msgid "How is my order confirmed?"
+msgstr "Comment ma commande est-elle confirmée ?"
+
+#: shop/faq.php:135
+msgid ""
+"Once you have placed your order you will receive a confirmation email sent "
+"to the email address you entered when you placed your order. Keep this email "
+"and your order number in case you have any questions or remarks regarding "
+"your order. When you have received the confirmation email, Familov does the "
+"rest. Just sit back, relax and enjoy !"
+msgstr ""
+"Une fois que vous avez passé votre commande, vous recevrez un courriel de "
+"confirmation envoyé à l'adresse e-mail que vous avez saisie lorsque vous "
+"avez passé votre commande. Conservez ce courriel et votre numéro de commande "
+"pour toute question ou remarque concernant votre commande. Lorsque vous "
+"recevez l'e-mail de confirmation, Familov fait le reste. Il suffit de "
+"s'asseoir, de se détendre et de profiter!"
+
+#: shop/faq.php:142
+msgid "I have not received a confirmation email"
+msgstr "Je n'ai pas reçu de mail de confirmation"
+
+#: shop/faq.php:147
+msgid ""
+"If an order number is displayed on your screen, that is an indication that "
+"your order has been submitted. The confirmation email may be in your 'spam' "
+"rather than in your inbox.\n"
+"If you don't receive an order number please contact our customer service to "
+"find the status of your order. You must provide the e-mail address you "
+"entered when ordering and the name of the selected Shop so we can find your "
+"order."
+msgstr ""
+"Si un numéro de commande s'affiche à l'écran, cela signifie que votre "
+"commande a été envoyée. L'e-mail de confirmation peut être dans votre «spam» "
+"plutôt que dans votre boîte de réception.\n"
+"Si vous ne recevez pas de numéro de commande, veuillez contacter notre "
+"service à la clientèle pour connaître l'état de votre commande. Vous devez "
+"fournir l'adresse e-mail que vous avez saisie lors de la commande et le nom "
+"de la boutique sélectionnée afin que nous puissions trouver votre commande."
+
+#: shop/faq.php:156
+msgid "Payment"
+msgstr "Paiement"
+
+#: shop/faq.php:161
+msgid "What are the types of payment I can use?"
+msgstr "Quels types de paiement je peux utiliser ?"
+
+#: shop/faq.php:173
+msgid "How secure are online payments?"
+msgstr "Dans quelle mesure les paiements en ligne sont-ils sécurisés?"
+
+#: shop/faq.php:178
+msgid ""
+"When processing online payments on Familov.com we use secure SSL pages. This "
+"means that these pages ensure the protection of your personal and payment "
+"details. This way you can be sure that this information is only visible to "
+"you and to us, for the processing of your order."
+msgstr ""
+"Lorsque nous traitons les paiements en ligne sur Familov.com, nous utilisons "
+"des pages SSL sécurisées. Cela signifie que ces pages assurent la protection "
+"de vos données personnelles et de paiement. De cette façon, vous pouvez être "
+"sûr que cette information est seulement visible pour vous et pour nous, pour "
+"le traitement de votre commande."
+
+#: shop/faq.php:185
+msgid "Why do I have to pay transaction costs?"
+msgstr "Pourquoi dois-je payer les frais de transaction?"
+
+#: shop/faq.php:197
+msgid "My online payment failed"
+msgstr "Mon paiement en ligne a échoué"
+
+#: shop/faq.php:202
+msgid ""
+"If you think the online payment has failed, always check if you have "
+"received a confirmation email. This email will enable you to see if your "
+"order has been submitted and if the order is already paid for or not.\n"
+"The confirmation email is directly sent once the payment is complete. This "
+"may take a little longer if the payment is being processed by the bank, the "
+"credit card company or any other payment company. This can take up to 15 "
+"minutes.\n"
+"If after 15 minutes you still have no confirmation email in your inbox, "
+"contact our customer service. They will tell you if the order and the "
+"payment have succeeded."
+msgstr ""
+"Si vous pensez que le paiement en ligne a échoué, vérifiez toujours si vous "
+"avez reçu un e-mail de confirmation. Cet e-mail vous permettra de voir si "
+"votre commande a été soumise et si la commande est déjà payée ou non.\n"
+"L'e-mail de confirmation est envoyé directement une fois le paiement "
+"terminé. Cela peut prendre un peu plus longtemps si le paiement est traité "
+"par la banque, la société de carte de crédit ou toute autre société de "
+"paiement. Cela peut prendre jusqu'à 15 minutes.\n"
+"Si après 15 minutes vous n'avez toujours pas de courriel de confirmation "
+"dans votre boîte de réception, contactez notre service à la clientèle. Ils "
+"vous diront si l'ordre et le paiement ont réussi."
+
+#: shop/faq.php:211
+msgid "I have many more questions for you?"
+msgstr "J'ai encore des questions pour vous ?"
+
+#: shop/faq.php:216
+msgid "Contact us! We will be there at hello@familov.com"
+msgstr "Contactez nous ! À cette adresse hello@familov.com"
+
+#: shop/faq.php:231
+msgid "How can we help you today?"
+msgstr "Comment nous pouvons vous aider ?"
+
+#: shop/faq.php:233
+msgid "Email Your Question"
+msgstr "Questions par email"
+
+#: shop/fees.php:1
+msgid "Straightforward and transparent"
+msgstr "Simple et transparent"
+
+#: shop/fees.php:1
+msgid "Transfert with Familov"
+msgstr "Transfert avec Familov"
+
+#: shop/fees.php:1
+msgid "Our fees are simple with no surprise1s."
+msgstr "Nos frais sont simple sans surprise. "
+
+#: shop/fees.php:1
+msgid "Free opening account"
+msgstr "Frais à l'ouverture de compte"
+
+#: shop/fees.php:1
+msgid "Fair and local price"
+msgstr "Prix justes et locaux"
+
+#: shop/fees.php:1
+msgid "Fixed charges"
+msgstr "Charges fixes"
+
+#: shop/fees.php:1 shop/how.php:84
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: shop/footer.php:35 shop/header.php:148 shop/index.php:165
+msgid "How it works"
+msgstr "Comment ça marche"
+
+#: shop/footer.php:36
+msgid "Support"
+msgstr "Support"
+
+#: shop/footer.php:37
+msgid "Terms"
+msgstr "Delai"
+
+#: shop/footer.php:38
+msgid "Privacy"
+msgstr "Vie privée"
+
+#: shop/footer.php:50
+msgid "Jobs"
+msgstr "Emplois"
+
+#: shop/footer.php:58
+msgid "For Businesses"
+msgstr "Pour affaires"
+
+#: shop/footer.php:83
+msgid "Made with"
+msgstr "Fait ave"
+
+#: shop/footer.php:83
+msgid " in Saarbrücken"
+msgstr "à Saarbrücken"
+
+#: shop/header.php:32
+msgid "FAMILOV | Food and groceries instead of money transfert"
+msgstr "FAMILOV |  Aliments et épices au lieu du transfert d'argent"
+
+#: shop/header.php:146
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: shop/header.php:150
+msgid "Help?"
+msgstr "Aide ?"
+
+#: shop/header.php:172 shop/login.php:67 shop/newsletter.php:129
+msgid "Sign up"
+msgstr "Inscription"
+
+#: shop/header.php:173
+msgid "Log in"
+msgstr "Connexion"
+
+#: shop/header.php:178
+msgid "Welcome: "
+msgstr "Bienvenue"
+
+#: shop/header.php:181
+msgid "My Account"
+msgstr "Mon compte"
+
+#: shop/header.php:182
+msgid "Go To New Shop"
+msgstr "Nouvelle boutique"
+
+#: shop/header.php:183
+msgid "Logout"
+msgstr "Deconnexion"
+
+#: shop/header.php:227 shop/view_cart.php:12
+msgid "My cart"
+msgstr "Mon panier"
+
+#: shop/header.php:231
+msgid "Language"
+msgstr "Langue"
+
+#: shop/header.php:233
+msgid "French"
+msgstr "Français"
+
+#: shop/header.php:234
+msgid "English"
+msgstr "Anglais"
+
+#: shop/header.php:248
+msgid "Are you sure you want to delete this record ?"
+msgstr "Voulez-vous supprimer cette enregistrement ?"
+
+#: shop/how.php:11
+msgid "How it s Works"
+msgstr "Comment ça marche"
+
+#: shop/how.php:34
+msgid "Send in 3 easy steps"
+msgstr "Envoyer en 3 étapes"
+
+#: shop/how.php:38
+msgid "It is not always easy to send money home."
+msgstr "Pas facile d'envoyer de l'argent à la famille."
+
+#: shop/how.php:38
+msgid ""
+"We offer you a new way to help your family and be sure that they are well "
+"cared."
+msgstr ""
+"Nous vous offrons une solution d'aider votre famille et s'assurer qu'ils "
+"vont bien."
+
+#: shop/how.php:39
+msgid "Cheaper. Better. Enjoy."
+msgstr "Abordable, Meilleur, Profiter"
+
+#: shop/how.php:48
+msgid "Order easily"
+msgstr "Commander facilement"
+
+#: shop/how.php:49
+msgid ""
+"Fill your cart in reciever near store and give us his name and mobile phone."
+msgstr ""
+"Remplissez le chariot près de chez vous et donnez nous l'adresse du "
+"bénéficiaire."
+
+#: shop/how.php:58 shop/index.php:188
+msgid "Pay securely"
+msgstr "Paiement sécurisé"
+
+#: shop/how.php:59 shop/index.php:189
+msgid "You pay easily and securely with Credit Card, PayPal or direct debit"
+msgstr ""
+"Votre paiement facile et sécurisé avec votre carte de crédit, PayPal ou en "
+"espèce"
+
+#: shop/how.php:68
+msgid "Order prepare"
+msgstr "Commande préparée"
+
+#: shop/how.php:69
+msgid "We send local store your order details and send an"
+msgstr "Nous envoyons les détails de votre commande"
+
+#: shop/how.php:69
+msgid " to reciever"
+msgstr "au bénéficiaire"
+
+#: shop/how.php:76
+msgid "reciever get delivery"
+msgstr "bénéficiaire se fait livrer"
+
+#: shop/how.php:77
+msgid ""
+"The Shopper prepare and inform reciever to pickup order from delivery point"
+msgstr ""
+"Le magasinier prépare et informe le bénéficiaire de venir récupérer dans un "
+"point de vente "
+
+#: shop/index.php:17
+msgid "No matter where you are"
+msgstr "Pas d'inquietude d'ou vous etes"
+
+#: shop/index.php:17
+msgid "be present for everyday event"
+msgstr "Etre présent à tous les événements"
+
+#: shop/index.php:19
+msgid "It is not always easy to send money home. We offer you  a new way"
+msgstr "Pas facile d'envoyer l'argent au pays. Nous vous offrons un solution"
+
+#: shop/index.php:19
+msgid " to help your family and be sure that they are well cared."
+msgstr "pour aider votre famille et vous assurer qu'ils vont bien."
+
+#: shop/index.php:19
+msgid "Cheaper. Safer. Better. "
+msgstr "Abordable, Garanti, Meilleur."
+
+#: shop/index.php:34
+msgid "Quick and easy select a Shop near Home!"
+msgstr "Facile et rapide de choisir un boutique près de chez vous !"
+
+#: shop/index.php:40
+msgid "Reciever´s country"
+msgstr "Pays du bénéficiaire"
+
+#: shop/index.php:72
+msgid "Reciever´s city"
+msgstr "Ville du bénéficiaire"
+
+#: shop/index.php:87
+msgid "Choose a shop"
+msgstr "Choisir un boutique"
+
+#: shop/index.php:102
+msgid "Order now"
+msgstr "Commander maintenant"
+
+#: shop/index.php:169
+msgid "Send money home is not  easy."
+msgstr "Envoyer de l'argent n'est pas facile."
+
+#: shop/index.php:169
+msgid "Buy online here and your family"
+msgstr "Acheter en ligne et votre famille"
+
+#: shop/index.php:169
+msgid "Withdraws the order home."
+msgstr "recevoir un commande depuis la maison."
+
+#: shop/index.php:178
+msgid "Order online"
+msgstr "Commande en ligne"
+
+#: shop/index.php:179
+msgid ""
+"Fill your cart in a store  near home and give us recievers name and phone. "
+msgstr ""
+"Remplissez votre chariot dans nos boutiques près de chez vous et donnez nous "
+"l'adresse du bénéficiaire."
+
+#: shop/index.php:198
+msgid "Code per SMS"
+msgstr "CODE par SMS"
+
+#: shop/index.php:199
+msgid " We send local store your order details and send an"
+msgstr "Nous envoyons les détails de votre commande dans un magasin local"
+
+#: shop/index.php:199
+msgid "CODE per SMS"
+msgstr "CODE par SMS"
+
+#: shop/index.php:199
+msgid " to recievers"
+msgstr "pour le bénéficiaire"
+
+#: shop/index.php:206
+msgid " Get delivery"
+msgstr "Faire livrer"
+
+#: shop/index.php:207
+msgid ""
+"Order is prepared and  your family withdraw the order in Store or get "
+"delivery"
+msgstr ""
+"La commande est préparée et votre famille la reçoit au magasin ou se fait "
+"livrer"
+
+#: shop/index.php:265
+msgid "Create your account"
+msgstr "Créer un compte"
+
+#: shop/index.php:301
+msgid "What People Are Saying About Us"
+msgstr "Qu'est ce qui se dit à propos de nous"
+
+#: shop/index.php:303
+msgid "Meet our happy clients and find out why"
+msgstr "Voir nos clients heureux et pourquoi pas"
+
+#: shop/index.php:303
+msgid "Familov is their preferred choice."
+msgstr "Familov est leur choix préferé."
+
+#: shop/index.php:325
+msgid ""
+"I order food for my mom on Familov from Germany to Cameroon. It is faster, "
+"cheaper and more reliable than anything I‘ve ever tried before."
+msgstr ""
+"I commande les aliments pour ma mère sur Familov depuis l'Allemagne. C'est "
+"rapide, abordable et plus simple que tout ce dont j'ai vu avant."
+
+#: shop/index.php:333
+msgid "Student,Germany"
+msgstr "Etudiant, Allemagne"
+
+#: shop/index.php:349
+msgid ""
+"It works very well and what a good idea it is.One of those things where "
+"everybody says „Why didn‘t I think of this before?“. It is just amazing."
+msgstr ""
+"C'est une bonne idée et ça marche très bien. Une de ces choses ou tout le "
+"monde dit \"pourquoi je n'ai pas pensé avant ?\". C'est incroyable."
+
+#: shop/index.php:355
+msgid "Engineer, Germany"
+msgstr "Ingénieur, Allemagne"
+
+#: shop/index.php:371
+msgid ""
+"I really love and enjoy this way to help my family at home. The "
+"notifications and trackability of my orders are giving me peace of mind. "
+"Thank you."
+msgstr ""
+"J'aime aider ma famille au pays. Les notifications reçues par rapport à mes "
+"commandes me rassurent. Merci"
+
+#: shop/index.php:377
+msgid "Nurse, France"
+msgstr "Infirmiere, Allemagne"
+
+#: shop/index.php:398
+msgid "featured on:"
+msgstr "En partenariat"
+
+#: shop/index.php:439
+msgid ""
+"I lives in Germany since 4 years and I work so hard everyday to help my "
+"family, but for many reasons is not always easy for me to send money home. "
+"Familov offer me a new way to take care of my loves and now I really enjoy "
+"because I can do more for them  everyday ."
+msgstr ""
+"Je vis en Allemagne depuis 4 ans et je travaille si dur tous les jours pour "
+"aider ma famille, mais pour de nombreuses raisons n'est pas toujours facile "
+"pour moi d'envoyer de l'argent à la maison. Familov m'offre une nouvelle "
+"façon de prendre soin de mes amours et maintenant j'aime vraiment parce que "
+"je peux faire plus pour eux tous les jours."
+
+#: shop/index.php:472
+msgid "Be a Familover"
+msgstr "Etre un Familover"
+
+#: shop/job.php:10
+msgid "Why join us?"
+msgstr "Pourquoi nous joindre ?"
+
+#: shop/job.php:34
+msgid " Be part of a young, ambitious,  dynamic team."
+msgstr "Prendre part à une jeune, ambitieuse et dynamique équipe."
+
+#: shop/job.php:35
+msgid ""
+"Participate in the development of an innovative project with strong "
+"international potential. "
+msgstr ""
+"Participer au développement et l'innovation des projets avec un potentiel "
+"international."
+
+#: shop/job.php:36
+msgid ""
+"Take part in an entrepreneurial adventure with a real game changing mission "
+"'Geld tranfert alternative !'"
+msgstr ""
+"Participer à une aventure entrepreneuriale avec un enjeu réel 'châtrer le "
+"transfert alternatif ' "
+
+#: shop/login.php:38
+msgid "Welcome Back !"
+msgstr "Bon retour"
+
+#: shop/login.php:49
+msgid "My Email"
+msgstr "Mon email"
+
+#: shop/login.php:54 shop/signup.php:53
+msgid "Password"
+msgstr "Mot de passe"
+
+#: shop/login.php:59
+msgid "LOGIN"
+msgstr "Connexion"
+
+#: shop/login.php:63
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: shop/login.php:67 shop/newsletter.php:129
+msgid "Don't have an account?"
+msgstr "Pas de compte ?"
+
+#: shop/login.php:69
+msgid " Fast checkout "
+msgstr "Paiement rapide"
+
+#: shop/login.php:70 shop/newsletter.php:132
+msgid " See all your orders"
+msgstr "Voir toutes vos comandes"
+
+#: shop/login.php:71 shop/newsletter.php:133
+msgid " Fast re-order"
+msgstr "Commande rapide"
+
+#: shop/login.php:72 shop/newsletter.php:134
+msgid " Be secure"
+msgstr "Etre assuré"
+
+#: shop/login.php:73 shop/newsletter.php:135
+msgid "Get exclusive deals"
+msgstr "Avoir un accord exclusif"
+
+#: shop/merchant.php:9
+msgid "Merchants"
+msgstr "Marchands"
+
+#: shop/newsletter.php:16
+msgid "Register to newsletter"
+msgstr "Inscription à la newsletter"
+
+#: shop/newsletter.php:98
+msgid "NEWSLETTER !"
+msgstr "Newsletter !"
+
+#: shop/newsletter.php:109
+msgid "Your Email Address"
+msgstr "Votre adresse email"
+
+#: shop/newsletter.php:113
+msgid "Your choice"
+msgstr "Votre choix"
+
+#: shop/newsletter.php:114
+msgid "Register"
+msgstr "Inscription"
+
+#: shop/newsletter.php:115
+msgid "Unregister"
+msgstr "Désinscription"
+
+#: shop/newsletter.php:119
+msgid "Send"
+msgstr "Envoyer"
+
+#: shop/newsletter.php:120
+msgid "Reset"
+msgstr "Reset"
+
+#: shop/newsletter.php:131
+msgid "Receive all informations"
+msgstr "Recevoir toutes vos informations"
+
+#: shop/orders.php:35 shop/view_orders.php:37
+msgid "Order Code"
+msgstr "Code commande"
+
+#: shop/orders.php:35
+msgid "Recipient Name"
+msgstr "Nom bénéficiaire"
+
+#: shop/orders.php:35
+msgid "Phone Number"
+msgstr "Numero Téléphone"
+
+#: shop/orders.php:36 shop/products.php:152 shop/view_cart.php:31
+#: shop/view_orders.php:38 shop/view_products.php:20
+msgid "Product"
+msgstr "Produit"
+
+#: shop/orders.php:37 shop/products.php:331 shop/view_cart.php:32
+#: shop/view_orders.php:39 shop/view_products.php:22
+msgid "Price"
+msgstr "Prix"
+
+#: shop/orders.php:38
+msgid "Total"
+msgstr "Total"
+
+#: shop/orders.php:39
+msgid "Grand Total"
+msgstr "Somme Total"
+
+#: shop/orders.php:40 shop/view_orders.php:42
+msgid "Date Time"
+msgstr "Date"
+
+#: shop/orders.php:41
+msgid "Status"
+msgstr "Statut"
+
+#: shop/orders.php:218
+msgid "Delivery Charges: "
+msgstr "Frais livraison"
+
+#: shop/orders.php:239
+msgid "Change Order Status"
+msgstr "Changer le statut des commandes"
+
+#: shop/orders.php:240
+msgid "Wait"
+msgstr "Attendre"
+
+#: shop/orders.php:241
+msgid "Buy"
+msgstr "Acheter"
+
+#: shop/orders.php:242
+msgid "Deliveret"
+msgstr "Livreur"
+
+#: shop/price.php:15
+msgid "Price Guarantee"
+msgstr "Prix garanti"
+
+#: shop/price.php:16
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry's standard dummy text ever since the "
+"1500s, when an unknown printer took a galley of type and scrambled it to "
+"make a type specimen book."
+msgstr ""
+"Lorem Ipsum est simplement un texte factice de l'industrie de l'imprimerie "
+"et de la composition. Lorem Ipsum a été le texte fictif standard de "
+"l'industrie depuis les années 1500, quand une imprimante inconnue a pris une "
+"galère de type et brouillée pour faire un spécimen type livre."
+
+#: shop/privacy.php:13
+msgid "What is this Privacy Policy for?"
+msgstr "Qu'est ce que la politique privée ?"
+
+#: shop/privacy.php:14
+msgid ""
+"This privacy policy is for this website Familov.com and governs the privacy "
+"of its users who choose to use it. "
+msgstr ""
+"Cette politique de confidentialité est pour ce site Familov.com et régit la "
+"vie privée de ses utilisateurs qui choisissent de l'utiliser."
+
+#: shop/privacy.php:15
+msgid ""
+"The policy sets out the different areas where user privacy is concerned and "
+"outlines the obligations &amp; requirements of the users, the website and "
+"website owners. Furthermore the way this website processes, stores and "
+"protects user data and information will also be detailed within this policy."
+msgstr ""
+"La politique énonce les différents domaines où la vie privée des "
+"utilisateurs est concerné et décrit les obligations & amp; Exigences des "
+"utilisateurs, du site Web et des propriétaires de sites Web. De plus, la "
+"façon dont ce site traite, stocke et protège les données et informations "
+"utilisateur sera également détaillé dans cette politique."
+
+#: shop/privacy.php:16
+msgid "The Website"
+msgstr "Le site web"
+
+#: shop/privacy.php:17
+msgid ""
+"This website and its owners take a proactive approach to user privacy and "
+"ensure the necessary steps are taken to protect the privacy of its users  "
+"throughout their visiting experience. This website complies to all UK "
+"national laws and requirements for user privacy."
+msgstr ""
+"Ce site Web et ses propriétaires adoptent une approche proactive de la "
+"confidentialité des utilisateurs et veillent à ce que les mesures "
+"nécessaires soient prises pour protéger la vie privée de leurs utilisateurs "
+"tout au long de leur séjour. Ce site Web est conforme à toutes les lois et "
+"exigences nationales en matière de confidentialité."
+
+#: shop/privacy.php:18
+msgid "Use of Cookies"
+msgstr "Usage des cookies"
+
+#: shop/privacy.php:19
+msgid ""
+"This website uses cookies to better the users experience while visiting the "
+"website. Where applicable this website uses a cookie control system allowing "
+"the user on their first visit to the website to allow or disallow the use of "
+"cookies on their computer / device. This complies with recent legislation "
+"requirements for websites to obtain explicit consent from users before "
+"leaving behind or reading files such as cookies on a user's computer / "
+"device."
+msgstr ""
+"Ce site Web utilise des cookies pour améliorer l'expérience des utilisateurs "
+"tout en visitant le site Web. Le cas échéant, ce site Web utilise un système "
+"de contrôle des cookies qui permet à l'utilisateur lors de sa première "
+"visite sur le site Web d'autoriser ou de refuser l'utilisation de cookies "
+"sur leur ordinateur / appareil. Ceci est conforme aux exigences légales "
+"récentes pour les sites Web d'obtenir le consentement explicite des "
+"utilisateurs avant de quitter le site ou de lire des fichiers tels que des "
+"cookies sur l'ordinateur / l'appareil d'un utilisateur."
+
+#: shop/privacy.php:20
+msgid ""
+"Cookies are small files saved to the user's computers hard drive that track, "
+"save and store information about the user's interactions and usage of  the "
+"website. This allows the website, through its server to provide the users "
+"with a tailored experience within this website."
+msgstr ""
+"Les cookies sont de petits fichiers enregistrés sur le disque dur de "
+"l'ordinateur de l'utilisateur qui permettent de suivre, d'enregistrer et de "
+"stocker des informations sur les interactions de l'utilisateur et "
+"l'utilisation du site Web. Cela permet au site, via son serveur, de fournir "
+"aux utilisateurs une expérience sur mesure dans ce site."
+
+#: shop/privacy.php:21
+msgid ""
+"Users are advised that if they wish to deny the use and saving of cookies "
+"from this website on to their computers hard drive they should take "
+"necessary steps within their web browsers security settings to block all "
+"cookies from this website and its external serving vendors."
+msgstr ""
+"Les utilisateurs sont informés que s'ils souhaitent refuser l'utilisation et "
+"l'enregistrement des cookies de ce site sur leur disque dur, ils doivent "
+"prendre les mesures nécessaires dans leurs paramètres de sécurité pour "
+"bloquer tous les cookies de ce site et de ses fournisseurs externes."
+
+#: shop/privacy.php:22
+msgid ""
+"This website uses tracking software to monitor its visitors to better "
+"understand how they use it. This software is provided by Google Analytics "
+"which uses cookies to track visitor usage. The software will save a cookie "
+"to your computers hard drive in order to track and monitor your engagement "
+"and usage of the website, but will not store, save or collect personal "
+"information. You can read Google's privacy policy here for further "
+"information "
+msgstr ""
+"Ce site Web utilise un logiciel de suivi pour surveiller ses visiteurs afin "
+"de mieux comprendre comment ils l'utilisent. Ce logiciel est fourni par "
+"Google Analytics qui utilise des cookies pour suivre l'utilisation des "
+"visiteurs. Le logiciel enregistre un cookie sur le disque dur de votre "
+"ordinateur afin de suivre et de surveiller votre engagement et l'utilisation "
+"du site Web, mais ne stockera pas, n'épargner ou de recueillir des "
+"informations personnelles. Vous pouvez lire la politique de confidentialité "
+"de Google ici pour plus d'informations"
+
+#: shop/privacy.php:24
+msgid ""
+"Other cookies may be stored to your computers hard drive by external vendors "
+"when this website uses referral programs, sponsored links or adverts. Such "
+"cookies are used for conversion and referral tracking and typically expire "
+"after 30 days, though some may take longer. No personal information is "
+"stored, saved or collected."
+msgstr ""
+"D'autres cookies peuvent être stockés sur le disque dur de votre ordinateur "
+"par des fournisseurs externes lorsque ce site Web utilise des programmes de "
+"parrainage, des liens sponsorisés ou des annonces. Ces cookies sont utilisés "
+"pour la conversion et le suivi des références et expirent habituellement "
+"après 30 jours, bien que certains peuvent prendre plus de temps. Aucune "
+"information personnelle n'est enregistrée, enregistrée ou collectée."
+
+#: shop/privacy.php:25
+msgid "Contact & Communication"
+msgstr "Contact & Communication"
+
+#: shop/privacy.php:26
+msgid ""
+"Users contacting this website and/or its owners do so at their own "
+"discretion and provide any such personal details requested at their own "
+"risk. Your personal information is kept private and stored securely until a "
+"time it is no longer required or has no use, as detailed in the Data "
+"Protection Act 1998. Every effort has been made to ensure a safe and secure "
+"form to email submission process but advise users using such form to email "
+"processes that they do so at their own risk."
+msgstr ""
+"Les utilisateurs qui entrent en contact avec ce site Web et / ou leurs "
+"propriétaires le font à leur propre discrétion et fournissent tous les "
+"détails personnels demandés à leurs propres risques. Vos informations "
+"personnelles sont gardées privées et stockées en toute sécurité jusqu'à un "
+"moment où il n'est plus nécessaire ou n'a pas d'utilité, comme détaillé dans "
+"la Loi de 1998 sur la protection des données. Tous les efforts ont été faits "
+"pour assurer un formulaire sûr et sécurisé pour le processus de soumission "
+"électronique, En utilisant ce formulaire à des processus de courrier "
+"électronique qu'ils le font à leurs propres risques."
+
+#: shop/privacy.php:28
+msgid ""
+"This website and its owners use any information submitted to provide you "
+"with further information about the products / services they offer or to "
+"assist you in answering any questions or queries you may have submitted. "
+"This includes using your details to subscribe you to any email newsletter "
+"program the website operates but only if this was made clear to you and your "
+"express permission was granted when submitting any form to email process. Or "
+"whereby you the consumer have previously purchased from or enquired about "
+"purchasing from the company a product or service that the email newsletter "
+"relates to. This is by no means an entire list of your user rights in regard "
+"to receiving email marketing material."
+msgstr ""
+"Ce site Web et ses propriétaires utilisent toutes les informations soumises "
+"pour vous fournir plus d'informations sur les produits / services qu'ils "
+"proposent ou pour vous aider à répondre aux questions ou questions que vous "
+"avez soumises. Cela inclut l'utilisation de vos détails pour vous abonner à "
+"tout programme de bulletin de courrier électronique du site Web fonctionne, "
+"mais seulement si cela a été clairement indiqué à vous et votre autorisation "
+"expresse a été accordée lors de la soumission de tout formulaire pour le "
+"processus de courrier électronique. Ou par lequel vous le consommateur ont "
+"précédemment acheté ou demandé au sujet de l'achat de la société un produit "
+"ou un service que le bulletin d'information électronique se rapporte à. Ce "
+"n'est en aucun cas une liste complète de vos droits d'utilisateur en ce qui "
+"concerne la réception de matériel de marketing par courriel."
+
+#: shop/privacy.php:29
+msgid "Your details are not passed on to any third parties. "
+msgstr "Vos coordonnées ne sont transmises à aucun tiers."
+
+#: shop/privacy.php:30
+msgid "Email Newsletter"
+msgstr "Email Newsletter"
+
+#: shop/privacy.php:31
+msgid ""
+"This website operates an email newsletter program, used to inform "
+"subscribers about products and services supplied by this website. Users can "
+"subscribe through an online automated process should they wish to do so but "
+"do so at their own discretion. Some subscriptions may be manually processed "
+"through prior written agreement with the user. "
+msgstr ""
+"Ce site Web exploite un programme de bulletin électronique, utilisé pour "
+"informer les abonnés sur les produits et services fournis par ce site Web. "
+"Les utilisateurs peuvent s'abonner à un processus automatisé en ligne s'ils "
+"le souhaitent, mais ils le font à leur propre discrétion. Certaines "
+"souscriptions peuvent être traitées manuellement par accord écrit préalable "
+"avec l'utilisateur."
+
+#: shop/privacy.php:32
+msgid ""
+"Subscriptions are taken in compliance with UK Spam Laws detailed in the "
+"Privacy and Electronic Communications Regulations 2003. All personal details "
+"relating to subscriptions are held securely and in accordance with the Data "
+"Protection Act 1998. No personal details are passed on to third parties nor "
+"shared with companies / people outside of the company that operates this "
+"website. Under the Data Protection Act 1998 you may request a copy of "
+"personal information held about you by this website's email newsletter "
+"program. A small fee will be payable. If you would like a copy of the "
+"information held on you please write to the business address at the bottom "
+"of this policy."
+msgstr ""
+"Les abonnements sont pris en conformité avec les lois britanniques sur les "
+"spams détaillées dans le Règlement sur la confidentialité et les "
+"communications électroniques de 2003. Tous les détails personnels relatifs "
+"aux souscriptions sont conservés en toute sécurité et conformément à la loi "
+"de 1998 sur la protection des données. Entreprises / personnes extérieures à "
+"l'entreprise qui exploite ce site Web. En vertu de la Loi de 1998 sur la "
+"protection des données, vous pouvez demander une copie des renseignements "
+"personnels détenus à votre sujet par le programme de bulletin électronique "
+"de ce site Web. Une petite somme vous sera due. Si vous désirez obtenir une "
+"copie des informations détenues sur vous, veuillez écrire à l'adresse "
+"professionnelle au bas de cette politique."
+
+#: shop/privacy.php:33
+msgid ""
+"Email marketing campaigns published by this website or its owners may "
+"contain tracking facilities within the actual email. Subscriber activity is "
+"tracked and stored in a database for future analysis and evaluation. Such "
+"tracked activity may include; the opening of emails, forwarding of emails, "
+"the clicking of links within the email content, times, dates and frequency "
+"of activity [this is by no far a comprehensive list]."
+msgstr ""
+"Les campagnes de marketing par courrier électronique publiées par ce site "
+"Web ou ses propriétaires peuvent contenir des installations de suivi dans le "
+"courrier électronique actuel. L'activité de l'abonné est suivie et stockée "
+"dans une base de données pour analyse et évaluation futures. Une telle "
+"activité suivie peut inclure; L'ouverture de courriels, l'envoi de "
+"courriels, le clic des liens dans le contenu du courrier électronique, les "
+"horaires, les dates et la fréquence des activités [ceci est de loin une "
+"liste exhaustive]."
+
+#: shop/privacy.php:34
+msgid ""
+"This information is used to refine future email campaigns and supply the "
+"user with more relevant content based around their activity."
+msgstr ""
+"Ces informations sont utilisées pour affiner les futures campagnes de "
+"courrier électronique et fournir à l'utilisateur un contenu plus pertinent "
+"basé sur leur activité."
+
+#: shop/privacy.php:35
+msgid ""
+"In compliance with UK Spam Laws and the Privacy and Electronic "
+"Communications Regulations 2003 subscribers are given the opportunity to un-"
+"subscribe at any time through an automated system. This process is detailed "
+"at the footer of each email campaign. If an automated un-subscription system "
+"is unavailable clear instructions on how to un-subscribe will by detailed "
+"instead."
+msgstr ""
+"Conformément aux lois britanniques sur les spams et au Règlement sur la "
+"confidentialité et les communications électroniques de 2003, les abonnés ont "
+"la possibilité de se désabonner à tout moment grâce à un système automatisé. "
+"Ce processus est détaillé au bas de chaque campagne de courrier "
+"électronique. Si un système de désabonnement automatisé n'est pas "
+"disponible, des instructions claires sur la façon de se désabonner seront "
+"détaillées à la place."
+
+#: shop/privacy.php:36
+msgid "External Links"
+msgstr "Liens externes"
+
+#: shop/privacy.php:37
+msgid ""
+"Although this website only looks to include quality, safe and relevant "
+"external links, users are advised adopt a policy of caution before clicking "
+"any external web links mentioned throughout this website. (External links "
+"are clickable text  / banner / image links to other websites, similar to; "
+msgstr ""
+"Bien que ce site ne vise que des liens externes de qualité, sûrs et "
+"pertinents, il est conseillé aux utilisateurs d'adopter une politique de "
+"prudence avant de cliquer sur les liens externes mentionnés dans ce site "
+"Web. (Les liens externes sont des liens de texte / bannière / image "
+"cliquables vers d'autres sites Web, semblables à"
+
+#: shop/privacy.php:38
+msgid ""
+"The owners of this website cannot guarantee or verify the contents of any "
+"externally linked website despite their best efforts. Users should therefore "
+"note they click on external links at their own risk and this website and its "
+"owners cannot be held liable for any damages or implications caused by "
+"visiting any external links mentioned."
+msgstr ""
+"Les propriétaires de ce site ne peuvent garantir ou vérifier le contenu d'un "
+"site externe en dépit de leurs meilleurs efforts. Les utilisateurs doivent "
+"donc noter qu'ils cliquent sur des liens externes à leurs propres risques et "
+"ce site et ses propriétaires ne peuvent être tenus responsables de tout "
+"dommage ou des conséquences causées par la visite de liens externes "
+"mentionnés."
+
+#: shop/privacy.php:39
+msgid "Adverts and Sponsored Links"
+msgstr "Publicités et liens sponsorisés"
+
+#: shop/privacy.php:40
+msgid ""
+"This website may contain sponsored links and adverts. These will typically "
+"be served through our advertising partners, to whom may have detailed "
+"privacy policies relating directly to the adverts they serve."
+msgstr ""
+"Ce site peut contenir des liens sponsorisés et des annonces. Ceux-ci seront "
+"généralement servis par nos partenaires publicitaires, qui peuvent avoir des "
+"politiques détaillées de confidentialité se rapportant directement aux "
+"annonces qu'ils servent."
+
+#: shop/privacy.php:41
+msgid ""
+"Clicking on any such adverts will send you to the advertisers website "
+"through a referral program which may use cookies and will track the number "
+"of referrals sent from this website. This may include the use of cookies "
+"which may in turn be saved on your computers hard drive. Users should "
+"therefore note they click on sponsored external links at their own risk and "
+"this website and its owners cannot be held liable for any damages or "
+"implications caused by visiting any external links mentioned."
+msgstr ""
+"En cliquant sur ces annonces, vous serez dirigé vers le site Web des "
+"annonceurs par le biais d'un programme d'aiguillage qui peut utiliser des "
+"cookies et suivra le nombre de renvois envoyés à partir de ce site Web. Cela "
+"peut inclure l'utilisation de cookies qui peuvent à leur tour être "
+"enregistrés sur le disque dur de votre ordinateur. Les utilisateurs doivent "
+"donc noter qu'ils cliquent sur des liens externes sponsorisés à leurs "
+"risques et périls et que ce site et ses propriétaires ne peuvent être tenus "
+"pour responsables des dommages ou implications causés par la visite de liens "
+"externes mentionnés."
+
+#: shop/privacy.php:42
+msgid "Social Media Platforms"
+msgstr "Plateforme média social"
+
+#: shop/privacy.php:43
+msgid ""
+"Communication, engagement and actions taken through external social media "
+"platforms that this website and its owners participate on are custom to the "
+"terms and conditions as well as the privacy policies held with each social "
+"media platform respectively."
+msgstr ""
+"La communication, l'engagement et les actions prises à travers des "
+"plateformes de médias sociaux externes auxquelles ce site Web et ses "
+"propriétaires participent sont personnalisés aux termes et conditions ainsi "
+"qu'aux politiques de confidentialité tenues respectivement avec chaque plate-"
+"forme de médias sociaux."
+
+#: shop/privacy.php:44
+msgid ""
+"Users are advised to use social media platforms wisely and communicate / "
+"engage upon them with due care and caution in regard to their own privacy "
+"and personal details. This website nor its owners will ever ask for personal "
+"or sensitive information through social media platforms and encourage users "
+"wishing to discuss sensitive details to contact them through primary "
+"communication channels such as by telephone or email."
+msgstr ""
+"Il est conseillé aux utilisateurs d'utiliser judicieusement les plateformes "
+"de médias sociaux et de communiquer avec eux en toute prudence et prudence "
+"en ce qui concerne leur propre vie privée et leurs données personnelles. Ce "
+"site Web et ses propriétaires ne demanderont jamais des informations "
+"personnelles ou sensibles à travers les plateformes de médias sociaux et "
+"encourager les utilisateurs qui souhaitent discuter des détails sensibles de "
+"les contacter par les canaux de communication primaire tels que par "
+"téléphone ou par courriel."
+
+#: shop/privacy.php:45
+msgid ""
+"This website may use social sharing buttons which help share web content "
+"directly from web pages to the social media platform in question. Users are "
+"advised before using such social sharing buttons that they do so at their "
+"own discretion and note that the social media platform may track and save "
+"your request to share a web page respectively through your social media "
+"platform account."
+msgstr ""
+"Ce site Web peut utiliser des boutons de partage social qui aident à "
+"partager du contenu Web directement à partir de pages Web vers la plateforme "
+"de médias sociaux en question. Les utilisateurs sont avisés avant d'utiliser "
+"ces boutons de partage social qu'ils le font à leur propre discrétion et "
+"notez que la plate-forme de médias sociaux peut suivre et enregistrer votre "
+"demande de partager une page Web respectivement via votre compte de "
+"plateforme de médias sociaux."
+
+#: shop/privacy.php:46
+msgid "Shortened Links in Social Media"
+msgstr "Liens directs Réseaux sociaux"
+
+#: shop/privacy.php:47
+msgid ""
+"This website and its owners through their social media platform accounts may "
+"share web links to relevant web pages. By default some social media "
+"platforms shorten lengthy urls [web addresses] (this is an example: http://"
+"bit.ly/zyVUBo). "
+msgstr ""
+"Ce site Web et ses propriétaires par le biais de leurs comptes de plateforme "
+"de médias sociaux peuvent partager des liens Web vers des pages Web "
+"pertinentes. Par défaut, certaines plates-formes de médias sociaux "
+"raccourcissent les URL longues [adresses Web] (c'est un exemple: http://bit."
+"ly/zyVUBo)."
+
+#: shop/privacy.php:49
+msgid ""
+"Users are advised to take caution and good judgement before clicking any "
+"shortened urls published on social media platforms by this website and its "
+"owners. Despite the best efforts to ensure only genuine urls are published "
+"many social media platforms are prone to spam and hacking and therefore this "
+"website and its owners cannot be held liable for any damages or implications "
+"caused by visiting any shortened links."
+msgstr ""
+"Les utilisateurs sont avisés de faire preuve de prudence et de bon jugement "
+"avant de cliquer sur les URL raccourcies publiées sur les plateformes de "
+"médias sociaux par ce site Web et ses propriétaires. Malgré les meilleurs "
+"efforts pour s'assurer que les urls authentiques sont publiés de nombreuses "
+"plates-formes de médias sociaux sont sujettes au spam et le piratage et donc "
+"ce site et ses propriétaires ne peuvent pas être tenus responsables des "
+"dommages ou des implications causées par la visite de liens raccourcis."
+
+#: shop/privacy.php:50
+msgid "Resources & Further Information"
+msgstr "Ressources et promotions"
+
+#: shop/privacy.php:54
+msgid "Twitter Privacy Policy"
+msgstr "Twitter politique confidentielle"
+
+#: shop/privacy.php:55
+msgid "Facebook Privacy Policy"
+msgstr "Facebook politique confidentielle"
+
+#: shop/privacy.php:56
+msgid "Google Privacy Policy"
+msgstr "Google politique confidentielle"
+
+#: shop/privacy.php:57
+msgid "Linkedin Privacy Policy"
+msgstr "LinkedIn politique confidentielle"
+
+#: shop/privacy.php:58
+msgid "Mailchimp Privacy Policy"
+msgstr "Mailchimp politique confidentielle"
+
+#: shop/privacy.php:61
+msgid "v.2.0 July 2016"
+msgstr "v.2.0 Juillet 2016"
+
+#: shop/product.php:109 shop/product.php:111
+msgid "All"
+msgstr "Tout"
+
+#: shop/products.php:171
+msgid "Product Name"
+msgstr "Nom Produit "
+
+#: shop/products.php:185 shop/products.php:330 shop/view_categories.php:37
+#: shop/view_products.php:21
+msgid "Category"
+msgstr "Catégorie"
+
+#: shop/products.php:206
+msgid "Product Short Description"
+msgstr "Courte description produit"
+
+#: shop/products.php:215
+msgid "Product Description"
+msgstr "Description produit"
+
+#: shop/products.php:238
+msgid "Product Image"
+msgstr "Produit image"
+
+#: shop/products.php:246
+msgid "DELETE"
+msgstr "Supprimer"
+
+#: shop/products.php:261
+msgid "Product Price"
+msgstr "Prix produit"
+
+#: shop/products.php:274 shop/products.php:332
+msgid "Shop"
+msgstr "Magasins"
+
+#: shop/products.php:322
+msgid "Products"
+msgstr "Produits"
+
+#: shop/products.php:329
+msgid "Name"
+msgstr "Nom"
+
+#: shop/products.php:333
+msgid "Edit / Delete"
+msgstr "Modifier / Supprimer"
+
+#: shop/products.php:397 shop/view_categories.php:53 shop/view_products.php:67
+msgid "Edit"
+msgstr "Modifier"
+
+#: shop/products.php:397 shop/view_products.php:67
+msgid "Delete"
+msgstr "Supprimer"
+
+#: shop/shop_settings.php:38
+msgid "Shop Information"
+msgstr "Informations du magasin"
+
+#: shop/shop_settings.php:42
+msgid "Shop Name"
+msgstr "Nom magasin"
+
+#: shop/shop_settings.php:46
+msgid "Shop Address"
+msgstr "Adresse magasin"
+
+#: shop/shop_settings.php:52
+msgid "Shop Country"
+msgstr "Boutique pays"
+
+#: shop/shop_settings.php:54
+msgid "Select a Country"
+msgstr "Choisir un pays"
+
+#: shop/shop_settings.php:71
+msgid "Shop City"
+msgstr "Ville du magasin"
+
+#: shop/shop_settings.php:75
+msgid "Select a City"
+msgstr "Choisir une ville"
+
+#: shop/shop_settings.php:87
+msgid "Shop LOGO"
+msgstr "Logo magasin"
+
+#: shop/shop_settings.php:111
+msgid "Shop Banner"
+msgstr "Bannière Magasin"
+
+#: shop/shopper.php:15
+msgid "Sell on Familov"
+msgstr "Vendre sur Familov"
+
+#: shop/signup.php:15
+msgid "Create your account."
+msgstr "Créer un comte."
+
+#: shop/signup.php:15
+msgid " It's Free."
+msgstr "C'est gratuit"
+
+#: shop/signup.php:16
+msgid "FREE"
+msgstr "Gratuit"
+
+#: shop/signup.php:16
+msgid "charge  on your first order over"
+msgstr "pour toute commande supérieure à"
+
+#: shop/signup.php:30
+msgid " First  Name"
+msgstr "Nom"
+
+#: shop/signup.php:48
+msgid "Mobile Phone (For notification)"
+msgstr "Téléphone (pour notification)"
+
+#: shop/signup.php:58
+msgid "Re-Password"
+msgstr "Confirmez mot de passe"
+
+#: shop/signup.php:74
+msgid "Create my Familov account"
+msgstr "Créer mon compte Familov"
+
+#: shop/signup.php:77
+msgid "By clicking Signup you agree to the"
+msgstr "En vous inscrivant vous acceptez "
+
+#: shop/signup.php:77
+msgid " and"
+msgstr "et"
+
+#: shop/signup.php:78
+msgid " Already have a Familov account? "
+msgstr "déjà inscrit sur Familov ? "
+
+#: shop/signup.php:78
+msgid "Sign in"
+msgstr "Inscription"
+
+#: shop/success.php:93
+msgid "Thank you, for your order to "
+msgstr "Merci, pour votre commande à "
+
+#: shop/success.php:98
+msgid "Your Order ID is: "
+msgstr "Votre identifiant de commande est:"
+
+#: shop/success.php:98
+msgid " you will receive on Email and sms about your order soon. "
+msgstr "Vous recevrez un Email et SMS à propos de votre commande aussitôt."
+
+#: shop/success.php:99
+msgid "Thank you for shooping at "
+msgstr "Merci pour vos achats chez "
+
+#: shop/success.php:102
+msgid "HOME"
+msgstr "Accueil"
+
+#: shop/view_cart.php:30 shop/view_products.php:19
+msgid "Image"
+msgstr "Image"
+
+#: shop/view_cart.php:33
+msgid "Quantity"
+msgstr "Quantité"
+
+#: shop/view_cart.php:157
+msgid "Checkout"
+msgstr "Caisse"
+
+#: shop/view_cart.php:168
+msgid "Your cart is actually empty"
+msgstr "Votre chariot est actuellement vide"
+
+#: shop/view_cart.php:169
+msgid "Continue to shopping"
+msgstr "Continuer vos achats"
+
+#: shop/view_categories.php:30
+msgid "My Categories"
+msgstr "Mes catégories"
+
+#: shop/view_orders.php:9
+msgid "Order History"
+msgstr "Historique commande"
+
+#: shop/view_orders.php:173
+msgid "Fees: "
+msgstr "Frais:"
+
+#: shop/view_products.php:12
+msgid "My Products"
+msgstr "Mes produits"
+
+#: shop/view_products_total.php:109
+msgid "Actual Price:"
+msgstr "Prix actuel:"
+
+#: shop/view_products_total.php:111
+msgid " Add to cart"
+msgstr "Ajouter au chariot"
+
+#: shop/view_products_total.php:164
+msgid "No products were found matching your selection."
+msgstr "Pas de produits correspondant à votre selection."
+
+#~ msgid "Choose Language"
+#~ msgstr "Choix langue"
+
+#~ msgid "Resources &amp; Further Information"
+#~ msgstr "Ressources et Informations"
+
+#~ msgid "Familov - Sharing Happiness"
+#~ msgstr "Familov - Partage le bonheur"
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid "Impressum"
+#~ msgstr "Impressions"
+
+#~ msgid "Contact"
+#~ msgstr "Contacts"
+
+#~ msgid "We are working hard to develop an awesome service"
+#~ msgstr "Nous travaillons dure pour vous offrir des services innovants"
+
+#~ msgid " which will allow millions of people in"
+#~ msgstr "qui seront approuvés par de millions de personnes"
+
+#~ msgid "emerging countries to have a better life - everyday."
+#~ msgstr "Pays émergents pour une vie meilleure - chaque jour."
+
+#~ msgid "It´s not just a service , it´s a social movement."
+#~ msgstr "Plus qu'un service, un mouvement social."
+
+#~ msgid " FAMILOV | Food and groceries instead of money transfert"
+#~ msgstr "FAMILOV | Aliments et épices au lieu du transfert d'argent"
+
+#~ msgid " Help ?"
+#~ msgstr "Aide ?"

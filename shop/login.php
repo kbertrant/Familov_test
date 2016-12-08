@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
         <!-- =========================
             LOGIN SECTION
         ============================== -->
@@ -34,7 +35,7 @@
       <div class="modal-content">
           <div class="modal-header">
              
-              <h4 class="modal-title" id="myModalLabel" style ="color:#ec1e73">Welcome Back !</h4>
+              <h4 class="modal-title" id="myModalLabel" style ="color:#ec1e73"><?php echo gettext("Welcome Back !");?></h4>
           </div>
           <div class="modal-body">
               <div class="row">
@@ -45,31 +46,31 @@
                         <div class="form-horizontal" role="form">
                             <div class="form-group">
                             <div class="error_message"><strong id="email_error"></strong></div>
-                               <label for="">My Email</label>
+                               <label for=""><?php echo gettext("My Email");?></label>
                                 <input type="email" class="form-control" id="email_address" name="email_address" placeholder="e.g. name@example.com" required>
                             </div>
                             <div class="form-group">
                             <div class="error_message"><strong id="password_error"></strong></div>
-                                 <label for="">Password</label>
+                                 <label for=""><?php echo gettext("Password");?></label>
                                 <input type="password" class="form-control" onkeypress='checkLoginEnter(event)' id="password" name="password" placeholder="Password" required>
                             </div>
                          
                             <div class="form-group">
-								<button type="submit"  onclick="validLogin()" class="btn btn-blue">LOGIN</button>
+								<button type="submit"  onclick="validLogin()" class="btn btn-blue"><?php echo gettext("LOGIN");?></button>
                             </div>
                         </div>
                        
-                         <p class=" text-center" style="font-size: 15px" > <a href="reset_password_request.php"  style="color:#529800">Forgot your password?</a> </p><br/>
+                         <p class=" text-center" style="font-size: 15px" > <a href="reset_password_request.php"  style="color:#529800"><?php echo gettext("Forgot your password?");?></a> </p><br/>
                       </div>
                   </div>
                   <div class="col-xs-6">
-                        <p  class="" style="font-size: 12px">Don't have an account? <a href="signup.php"   style="color:#529800">Sign up </a> </p>
+                        <p  class="" style="font-size: 12px"><?php echo gettext("Don't have an account?");?> <a href="signup.php"   style="color:#529800"><?php echo gettext("Sign up");?> </a> </p>
                       <ul class="list-unstyled" style="line-height: 2">
-                          <li><span class="fa fa-check text-success"></span> Fast checkout </li>
-                          <li><span class="fa fa-check text-success"></span> See all your orders</li>
-                          <li><span class="fa fa-check text-success"></span> Fast re-order </li>
-                          <li><span class="fa fa-check text-success"></span> Be secure</li>
-                          <li><span class="fa fa-check text-success"></span> Get exclusive deals</small></li>
+                          <li><span class="fa fa-check text-success"></span><?php echo gettext(" Fast checkout ");?></li>
+                          <li><span class="fa fa-check text-success"></span><?php echo gettext(" See all your orders");?></li>
+                          <li><span class="fa fa-check text-success"></span><?php echo gettext(" Fast re-order");?></li>
+                          <li><span class="fa fa-check text-success"></span><?php echo gettext(" Be secure");?></li>
+                          <li><span class="fa fa-check text-success"></span><?php echo gettext("Get exclusive deals");?></small></li>
                          <!-- <li><a href="how.php"><u>Read more</u></a></li>-->
                       </ul>
                       

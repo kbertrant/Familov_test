@@ -1,11 +1,12 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
 
  <section id="hero12" class="hero hero-countdown bg-img" ">
                     <div class="overlay"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1 text-center">
-                                    <h1 class="text-white">Order History</h1>
+                                    <h1 class="text-white"><?php echo gettext("Order History");?></h1>
                                    
                                     
                                     <!--<a href="#pricing6-1" class="btn btn-shadow btn-green btn-lg smooth-scroll m-b-md">RESERVE YOUR SEAT</a>-->
@@ -25,7 +26,7 @@
                 <div class="row">
 					<div class="col-md-1">&nbsp;</div>
                    <div class="col-md-10">
-                        <h4 class="m-t-lg m-b-0 text-left center-md">Orders</h4>
+                        <h4 class="m-t-lg m-b-0 text-left center-md"><?php echo gettext("Orders");?></h4>
 						<br />
 						
 						<div class="table-responsive">
@@ -33,12 +34,12 @@
 						
 						<tr>
 						
-						<td><strong>Order Code</strong></td>
-						<td><strong>Product</strong></td>
-						<td><strong><center>Price</center></strong></td>
+						<td><strong><?php echo gettext("Order Code");?></strong></td>
+						<td><strong><?php echo gettext("Product");?></strong></td>
+						<td><strong><center><?php echo gettext("Price");?></center></strong></td>
 						<td><strong><center>Total</center></strong></td>
 						<td><strong><center>Grand Total</center></strong></td>
-						<td><strong><center>Date Time</center></strong></td>
+						<td><strong><center><?php echo gettext("Date Time");?></center></strong></td>
 						<td><strong><center>Status</center></strong></td>
 						</tr>
 		
@@ -169,7 +170,7 @@ ON ord.product_id=p.product_id where ord.product_id IN($product_id) and ord.gene
 
 <?php $my_totalling = $product_pricesdd + 3; ?>
 Subtotal: <span ><?php echo number_format($product_pricesdd, 2, '.', ','); ?>€</span><br />
-Fees: <span>3€</span><br />
+<?php echo gettext("Fees: ");?><span>3€</span><br />
 <span style="font-weight:bold;">Total: <?php echo number_format($my_totalling, 2, '.', ','); ?>€</span>
 
 

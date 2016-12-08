@@ -1,5 +1,6 @@
 <?php include ('header.php'); 
 include ('inc/dbConnect.inc.php');
+require_once "../localization.php";
 
 
 
@@ -18,26 +19,26 @@ if (mysql_query($insertintotable)) { }
 
 		  <div class="warper container-fluid">
         	
-            <div class="page-header"><h3>Orders <small>Information</small></h3></div>
+            <div class="page-header"><h3><?php echo gettext("Orders");?><small>Information</small></h3></div>
 			
 			
 			
 			
 			        <div class="panel panel-default">
-                    <div class="panel-heading">Orders</div>
+                    <div class="panel-heading"><?php echo gettext("Orders");?></div>
                     <div class="panel-body">
                     
                         <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="basic-datatable">
                             <thead>
                                 <tr>
                                     <!--<th>Order Code</th>-->
-									 <th>Order Code<br />Recipient Name<br />Phone Number</th>
-									 <th>Product</th>
-									  <th>Price</th>
-									   <th>Total</th>
-									    <th>Grand Total</th>
-									   <th>Date Time</th>
-									    <th>Status</th>
+									 <th><?php echo gettext("Order Code");?><br /><?php echo gettext("Recipient Name");?><br /><?php echo gettext("Phone Number");?></th>
+									 <th><?php echo gettext("Product");?></th>
+									  <th><?php echo gettext("Price");?></th>
+									   <th><?php echo gettext("Total");?></th>
+									    <th><?php echo gettext("Grand Total");?></th>
+									   <th><?php echo gettext("Date Time");?></th>
+									    <th><?php echo gettext("Status");?></th>
 						
 						
                                 </tr>
@@ -214,7 +215,7 @@ ON ord.product_id=p.product_id where ord.product_id IN($product_id) and ord.gene
 
 <?php $my_totalling = $product_pricesdd + 2; ?>
 Total: <span style="color:#ee3682;text-decoration: underline;"><?php echo number_format($product_pricesdd, 2, '.', ','); ?>€</span><br />
-Delivery Charges: <span style="color:#ee3682;text-decoration: underline;">2€</span><br />
+    <?php echo gettext("Delivery Charges: ");?><span style="color:#ee3682;text-decoration: underline;">2€</span><br />
 Grand Total: <span style="color:#ee3682;text-decoration: underline;"><?php echo number_format($my_totalling, 2, '.', ','); ?>€</span>
 
 										</td>
@@ -235,10 +236,10 @@ Grand Total: <span style="color:#ee3682;text-decoration: underline;"><?php echo 
 										
 				<input type="hidden" id="generate_code_<?php echo $generate_code; ?>" name="generate_code_<?php echo $generate_code; ?>" value="<?php echo $generate_code; ?>">
 				 <select class="form-control" name="order_status_<?php echo $generate_code; ?>" id="order_status_<?php echo $generate_code; ?>">
-                                      	  <option value="0">Change Order Status</option>
-										  <option value="Wait">Wait</option>
-										  <option value="Buy">Buy</option>
-										  <option value="Deliveret">Deliveret</option>
+                                      	  <option value="0"><?php echo gettext("Change Order Status");?></option>
+										  <option value="Wait"><?php echo gettext("Wait");?></option>
+										  <option value="Buy"><?php echo gettext("Buy");?></option>
+										  <option value="Deliveret"><?php echo gettext("Deliveret");?></option>
                                       
                    </select>						
 										

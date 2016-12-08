@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
         <section id="login" class=" p-y-lg bg-color">
             <div class="container">
                 <div class="row">
@@ -89,16 +90,16 @@ $Body .= "\n";
 
 <center><img src="images/pembukaan-kembali.png" style="width:10%; margin-bottom:30px;"/></center>
 <h2>
-	<center>Thank you, for your order to <span style="color:#ee3682;text-transform: uppercase;"><?php echo $recp_name; ?></span></center>
+	<center><?php echo gettext("Thank you, for your order to ");?><span style="color:#ee3682;text-transform: uppercase;"><?php echo $recp_name; ?></span></center>
 </h2>
 <h5 style="font-size: 25px;
     font-weight: lighter;
     line-height: 35px;">
-<center>Your Order ID is: <span style="color:#ee3682;"><?php echo $generate_code; ?></span> you will receive on Email and sms about your order soon.<br />
-Thank you for shooping at <span style="color:#ee3682; font-weight: bold;">FAMILOV</span></center>
+<center><?php echo gettext("Your Order ID is: ");?><span style="color:#ee3682;"><?php echo $generate_code; ?></span><?php echo gettext(" you will receive on Email and sms about your order soon. ");?><br />
+    <?php echo gettext("Thank you for shooping at ");?><span style="color:#ee3682; font-weight: bold;">FAMILOV</span></center>
 </h5>
 <center>
-<div><a href="index.php" style="color:#000; text-decoration: underline;">HOME</a></div>
+<div><a href="index.php" style="color:#000; text-decoration: underline;"><?php echo gettext("HOME");?></a></div>
 </center>
 <br /><br /><br /><br /> <center><img src="images/flat7.png" style="margin-top:95px;"/></center>
  

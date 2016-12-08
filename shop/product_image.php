@@ -2,7 +2,7 @@
 session_start();
 extract($_REQUEST);
 include ('food_admin/inc/dbConnect.inc.php');
-$customer_id = $_SESSION['customer_id'];	
+$customer_id = isset($_SESSION['customer_id']);
 
 $path = "products/";
 

@@ -2,9 +2,10 @@
 session_start();
 extract($_REQUEST);
 include ('food_admin/inc/dbConnect.inc.php');
-$shop_id = $_SESSION['shop_id'];
+require_once "../localization.php";
+$shop_id = isset($_SESSION['shop_id']);
 
-$category_id = $_POST['category_id'];
+$category_id = isset($_POST['category_id']);
 
 
 $shop_id = $_POST['shop_id'];
@@ -105,9 +106,9 @@ if($country_id != "" && $city_id != "" && $shop_id != "" && $country_id != "unde
 							 <a href="product_detail.php?product=<?php echo md5($product_id); ?>">
 						<?php } ?>
 						
-							   <?php echo $product_name; ?></a><br />Actual Price: <?php echo $product_prices; ?>€</p>
+							   <?php echo $product_name; ?></a><br /><?php echo gettext("Actual Price:");?> <?php echo $product_prices; ?>€</p>
 					
-							   <span class="btn btn-orange m-t" id="add_cart123_<?php echo $product_id; ?>"> Add to cart</span>
+							   <span class="btn btn-orange m-t" id="add_cart123_<?php echo $product_id; ?>"><?php echo gettext(" Add to cart");?></span>
 							   
 							   
 							    <div id="preview245_<?php echo $product_id; ?>"></div>
@@ -160,6 +161,6 @@ var product_id=jQuery('#product_id_<?php echo $product_id; ?>').val();
 <?php }else{ ?>
 
 
-<center>No products were found matching your selection.</center>
+<center><?php echo gettext("No products were found matching your selection.");?></center>
 	
 <?php } ?>

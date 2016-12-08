@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
 
         <!-- =========================
             LOGIN SECTION
@@ -8,17 +9,17 @@
                 <div class="row">
 					<div class="col-md-1">&nbsp;</div>
                    <div class="col-md-10">
-                        <h4 class="m-t-lg m-b-0 text-left center-md">My Products</h4>
+                        <h4 class="m-t-lg m-b-0 text-left center-md"><?php echo gettext("My Products");?></h4>
 						<br />
 						
 						<div class="table-responsive">
                         <table class="table">
 						
 						<tr>
-						<td><strong>Image</strong></td>
-						<td><strong>Product</strong></td>
-						<td><strong>Category</strong></td>
-						<td><strong>Price</strong></td>
+						<td><strong><?php echo gettext("Image");?></strong></td>
+						<td><strong><?php echo gettext("Product");?></strong></td>
+						<td><strong><?php echo gettext("Category");?></strong></td>
+						<td><strong><?php echo gettext("Price");?></strong></td>
 						<td><strong>Action</strong></td>
 						</tr>
 						
@@ -63,7 +64,7 @@
 						<td><?php echo $product_name; ?></td>
 						<td><?php echo $category_name; ?></td>
 						<td><?php echo $product_price_currency_sign; ?><?php echo $product_prices; ?></td>
-						<td><a href="add_product.php?product_id=<?php echo $product_id; ?>">Edit</a> - <a onclick="return confirmation()" href="delete.php?product_id=<?php echo $product_id; ?>">Delete</a></td>
+						<td><a href="add_product.php?product_id=<?php echo $product_id; ?>"><?php echo gettext("Edit");?></a> - <a onclick="return confirmation()" href="delete.php?product_id=<?php echo $product_id; ?>"><?php echo gettext("Delete");?></a></td>
 						</tr>
 						
 						

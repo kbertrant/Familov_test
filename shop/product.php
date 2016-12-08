@@ -1,13 +1,14 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
 
 
 <?php
 
 
 
-$country_id = $_GET['country_id'];
-$city_id = $_GET['city_id'];
-$shop_id = $_GET['shop_id'];
+$country_id = isset($_GET['country_id']);
+$city_id = isset($_GET['city_id']);;
+$shop_id = isset($_GET['shop_id']);
 
 ?>
 
@@ -37,7 +38,7 @@ if($country_id != "" && $city_id != "" && $shop_id != ""){
         <!-- =========================
             PAGE HEADER
         ============================== -->
-				<?php if($shop_banner != "") { ?>
+				<?php if(isset($shop_banner) != "") { ?>
                         <section class="page-head bg-img p-y-md" style="background-image:url('admin/shop_images/<?php echo $shop_banner; ?>')">
 				 <?php }else{ ?>
 						 <section class="page-head bg-img p-y-md" style="background-image:url('images/default-banner.png')">
@@ -53,17 +54,17 @@ if($country_id != "" && $city_id != "" && $shop_id != ""){
 				 
 				 
 				 
-				 <?php if($shop_logo != "") { ?>
-                        <img src="admin/shop_images/<?php echo $shop_logo; ?>" style="width:60%;"/>
+				 <?php if(isset($shop_logo) != "") { ?>
+                        <img src="admin/shop_images/<?php $shop_logo=""; echo $shop_logo; ?>" style="width:60%;"/>
 				 <?php }else{ ?>
 						<img src="images/default-logo.png" style="width:60%;"/>
 				 <?php } ?>
                     </div>
 					
                     <div class="col-sm-4">
-                       <center> <h1 class="h3 f-w-900 m-b-0" style="text-transform:uppercase; text-decoration: underline;"><?php echo $shop_name; ?></h1>
+                       <center> <h1 class="h3 f-w-900 m-b-0" style="text-transform:uppercase; text-decoration: underline;"><?php $shop_name=""; echo $shop_name; ?></h1>
 					   <br />
-						 <p class="small" style="font-weight: bold; width:50%;"><?php echo $shop_address; ?></p></center>
+						 <p class="small" style="font-weight: bold; width:50%;"><?php $shop_address=""; echo $shop_address; ?></p></center>
                     </div>
 					
 					 <div class="col-sm-4">
@@ -105,9 +106,9 @@ if($country_id != "" && $city_id != "" && $shop_id != ""){
 	
 
 <?php if($country_id != "" && $city_id != "" && $shop_id != ""){ ?>
-<li><a href="product.php?country_id=<?php echo $country_id; ?>&city_id=<?php echo $city_id; ?>&shop_id=<?php echo $shop_id; ?>">All</a></li>	
+<li><a href="product.php?country_id=<?php echo $country_id; ?>&city_id=<?php echo $city_id; ?>&shop_id=<?php echo $shop_id; ?>"><?php echo gettext("All");?></a></li>
 <?php }else{ ?>
-<li><a href="product.php">All</a></li>
+<li><a href="product.php"><?php echo gettext("All");?></a></li>
 <?php } ?>
 
 	

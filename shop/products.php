@@ -1,7 +1,9 @@
 <?php include ('header.php'); 
 include ('inc/dbConnect.inc.php');
+require_once "../localization.php";
 
-$product_id = $_GET['product_id'];
+
+$product_id = isset($_GET['product_id']);
 if($product_id != ""){
 	$sql78dss = "SELECT * from products where product_id = $product_id";
     $queryesss = mysql_query($sql78dss) or die(mysql_error());
@@ -26,7 +28,7 @@ if($product_id != ""){
 
 
     <?php
-		 if($_POST['submit']) {
+		 if(isset($_POST['submit'])) {
     $product_id = trim($_POST['product_id']);
 	$category_id = trim($_POST['category_id']);
 	$product_name = trim($_POST['product_name']);
@@ -147,12 +149,12 @@ $message = '<div style="color: green;
 		
 		  <div class="warper container-fluid">
         	
-            <div class="page-header"><h3>Product <small>Information</small></h3></div>
+            <div class="page-header"><h3><?php echo gettext("Product");?> <small>Information</small></h3></div>
             
             <div class="row">
             
             	<div class="col-md-12">
-				<?php echo $message; ?>	
+				<?php $message=""; echo $message; ?>
                  	<div class="panel panel-default">
                         <div class="panel-body">
                         	
@@ -166,9 +168,9 @@ $message = '<div style="color: green;
 														<input type="hidden" id="product_id" name="product_id" value="<?php echo $product_id; ?>">	
                             
                                   <div class="form-group">
-                                    <label class="col-sm-2 control-label">Product Name</label>
+                                    <label class="col-sm-2 control-label"><?php echo gettext("Product Name");?></label>
                                     <div class="col-sm-7">
-                                      <input type="text" class="form-control form-control-flat"  id="product_name" name="product_name" value="<?php echo $product_name; ?>" placeholder="Enter your product name" required>
+                                      <input type="text" class="form-control form-control-flat"  id="product_name" name="product_name" value="<?php $product_name="";    echo $product_name; ?>" placeholder="Enter your product name" required>
                                     </div>
                                   </div>
                                   
@@ -180,7 +182,7 @@ $message = '<div style="color: green;
 								   
 								   
 								     <div class="form-group">
-                                    <label class="col-sm-2 control-label">Category</label>
+                                    <label class="col-sm-2 control-label"><?php echo gettext("Category");?></label>
                                     <div class="col-sm-7">
                                      <select class="form-control chosen-select" name="category_id" id="category_id" data-placeholder="Choose a Category">
                                       	  <option></option>
@@ -190,7 +192,7 @@ $result_disp = mysql_query($query_disp);
 while($query_data = mysql_fetch_array($result_disp))
 {
 ?>
-<option style="padding:4px;" value="<?php echo $query_data["category_id"]; ?>"<?php if ($query_data["category_id"]==$category_id) {?> selected="selected"<?php } ?>><?php echo $query_data["category_name"]; ?></option>
+<option style="padding:4px;" value="<?php echo $query_data["category_id"]; ?>"<?php $category_id=""; if ($query_data["category_id"]==$category_id) {?> selected="selected"<?php } ?>><?php echo $query_data["category_name"]; ?></option>
 <?php } ?>
                                       </select>
                                     </div>
@@ -201,18 +203,18 @@ while($query_data = mysql_fetch_array($result_disp))
 								  
 								     <hr class="dotted">
 								    <div class="form-group">
-                                    <label class="col-sm-2 control-label">Product Short Description</label>
+                                    <label class="col-sm-2 control-label"><?php echo gettext("Product Short Description");?></label>
                                     <div class="col-sm-7">
-									<textarea class="form-control form-control-flat"  id="product_short_desc" name="product_short_desc" placeholder="Enter your product short description" rows="5" cols="10" required><?php echo $product_short_desc; ?></textarea>
+									<textarea class="form-control form-control-flat"  id="product_short_desc" name="product_short_desc" placeholder="Enter your product short description" rows="5" cols="10" required><?php $product_short_desc=""; echo $product_short_desc; ?></textarea>
                                     </div>
                                   </div>
 
 								  
 								    <hr class="dotted">
 								    <div class="form-group">
-                                    <label class="col-sm-2 control-label">Product Description</label>
+                                    <label class="col-sm-2 control-label"><?php echo gettext("Product Description");?></label>
                                     <div class="col-sm-7">
-									<textarea class="form-control form-control-flat"  id="product_desc" name="product_desc" placeholder="Enter your product description" rows="10" cols="10" required><?php echo $product_desc; ?></textarea>
+									<textarea class="form-control form-control-flat"  id="product_desc" name="product_desc" placeholder="Enter your product description" rows="10" cols="10" required><?php $product_desc=""; echo $product_desc; ?></textarea>
                                     </div>
                                   </div>
 								  
@@ -233,15 +235,15 @@ CKEDITOR.replace( 'product_desc', {
 								  	  
 								  <hr class="dotted">
 								    <div class="form-group">
-                                    <label class="col-sm-2 control-label">Product Image</label>
+                                    <label class="col-sm-2 control-label"><?php echo gettext("Product Image");?></label>
                                     <div class="col-sm-7">
 									
 									
 																					
-										<?php if($product_image != ""){ ?>
+										<?php if(isset($product_image) != ""){ ?>
 										
 										<img src="product_images/<?php echo $product_image; ?>" width="150"/><br />
-										<a href="delete.php?delete_product_image=<?php echo $product_id; ?>">DELETE</a>
+										<a href="delete.php?delete_product_image=<?php echo $product_id; ?>"><?php echo gettext("DELETE");?></a>
 										<br /><br />
 										
 										<?php }else{ ?>
@@ -256,9 +258,9 @@ CKEDITOR.replace( 'product_desc', {
 								  
 								  
 								     <div class="form-group">
-                                    <label class="col-sm-2 control-label">Product Price</label>
+                                    <label class="col-sm-2 control-label"><?php echo gettext("Product Price");?></label>
                                     <div class="col-sm-7">
-                                      <input type="text" class="form-control form-control-flat"  id="product_prices" name="product_prices" value="<?php echo $product_prices; ?>" placeholder="Enter your product price" required>
+                                      <input type="text" class="form-control form-control-flat"  id="product_prices" name="product_prices" value="<?php $product_prices=""; echo $product_prices; ?>" placeholder="Enter your product price" required>
                                     </div>
                                   </div>
                                   
@@ -269,7 +271,7 @@ CKEDITOR.replace( 'product_desc', {
 								   
 								   
 								     <div class="form-group">
-                                    <label class="col-sm-2 control-label">Shop</label>
+                                    <label class="col-sm-2 control-label"><?php echo gettext("Shop");?></label>
                                     <div class="col-sm-7">
                                      <select class="form-control chosen-select" name="shop_id" id="shop_id" data-placeholder="Choose a Shop">
                                       	  <option></option>
@@ -279,7 +281,7 @@ $result_disp = mysql_query($query_disp);
 while($query_data = mysql_fetch_array($result_disp))
 {
 ?>
-<option style="padding:4px;" value="<?php echo $query_data["shop_id"]; ?>"<?php if ($query_data["shop_id"]==$shop_id) {?> selected="selected"<?php } ?>><?php echo $query_data["shop_name"]; ?></option>
+<option style="padding:4px;" value="<?php echo $query_data["shop_id"]; ?>"<?php $shop_id=""; if ($query_data["shop_id"]==$shop_id) {?> selected="selected"<?php } ?>><?php echo $query_data["shop_name"]; ?></option>
 <?php } ?>
                                       </select>
                                     </div>
@@ -299,8 +301,7 @@ while($query_data = mysql_fetch_array($result_disp))
 
                                   </div>
   
-                     
-                              
+
                         	</form>
 				
                         </div>
@@ -318,18 +319,18 @@ while($query_data = mysql_fetch_array($result_disp))
 			
 			
 			        <div class="panel panel-default">
-                    <div class="panel-heading">Products</div>
+                    <div class="panel-heading"><?php echo gettext("Products");?></div>
                     <div class="panel-body">
                     
                         <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="basic-datatable">
                             <thead>
                                 <tr>
 											<th>Image</th>
-											<th>Name</th>
-											<th>Category</th>
-											<th>Price</th>
-											<th>Shop</th>
-                                            <th>Edit / Delete</th>
+											<th><?php echo gettext("Name");?></th>
+											<th><?php echo gettext("Category");?></th>
+											<th><?php echo gettext("Price");?></th>
+											<th><?php echo gettext("Shop");?></th>
+                                            <th><?php echo gettext("Edit / Delete");?></th>
                                 </tr>
                             </thead>
 							
@@ -393,7 +394,7 @@ while($query_data = mysql_fetch_array($result_disp))
 										
 	<?php } ?>	</td>
 			
-                                            <td><a href="products.php?product_id=<?php echo $product_id; ?>">Edit</a> / <a onclick="return confirmation()" href="delete.php?product_id=<?php echo $product_id; ?>">Delete</a></td>
+                                            <td><a href="products.php?product_id=<?php echo $product_id; ?>"><?php echo gettext("Edit");?></a> / <a onclick="return confirmation()" href="delete.php?product_id=<?php echo $product_id; ?>"><?php echo gettext("Delete");?></a></td>
 											
 											 
                                         </tr>

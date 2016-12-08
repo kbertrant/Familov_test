@@ -1,11 +1,12 @@
-<?php include("header.php"); ?>	
+<?php include("header.php");
+require_once "../localization.php";?>
 
                <section id="hero12" class="hero hero-countdown bg-img" ">
                     <div class="overlay"></div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-10 col-md-offset-1 text-center">
-                                    <h1 class="text-white">Merchants</h1>
+                                    <h1 class="text-white"><?php echo gettext("Merchants");?></h1>
                                    
                                     
                                     <!--<a href="#pricing6-1" class="btn btn-shadow btn-green btn-lg smooth-scroll m-b-md">RESERVE YOUR SEAT</a>-->

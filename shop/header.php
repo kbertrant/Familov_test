@@ -1,12 +1,16 @@
 <?php
 session_start();
-include ('food_admin/inc/dbConnect.inc.php');   
+include ('food_admin/inc/dbConnect.inc.php');
+//require_once "../database.php";
+require_once "../localization.php";
+//$base = new Database();
+//$conn = $base->getConnection();
 
 $ip_address = $_SERVER['REMOTE_ADDR'];
 //when already seesion exist
 if (!isset($_SESSION['LOGIN_STATUSs1'])) {  
 }  
-$customer_id = $_SESSION['customer_id'];
+$customer_id = isset($_SESSION['customer_id']);
 
     $sql78sdss = "SELECT * from customers where customer_id = '$customer_id'";
     $queryessss = mysql_query($sql78sdss) or die(mysql_error());
@@ -14,7 +18,7 @@ $customer_id = $_SESSION['customer_id'];
         $username = $resusltddss['username'];
     }
 
-include ('food_admin/inc/database.php');
+//include ('food_admin/inc/database.php');
 //$db = new database('familov_com','localhost','root','root');
 ?>
 
@@ -28,7 +32,7 @@ include ('food_admin/inc/database.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- TITLE OF SITE -->
-    <title> FAMILOV | Food and groceries instead of money transfert</title>
+    <title><?php echo gettext("FAMILOV | Food and groceries instead of money transfert");?></title>
 
     <meta name="description" content="groceries dele instead of money transfert" />
     <meta name="keywords" content="groceries, africa, delivered,family,startup,loved, money />
@@ -142,10 +146,11 @@ include ('food_admin/inc/database.php');
                         </ul><!-- /End Menu Links -->
                         <!-- Menu Links -->
                         <ul class="nav navbar-nav navbar-right">
+                            <li><a href="newsletter.php" class="smooth-scroll"><?php echo gettext("Newsletter");?> </a></li>
                            <!--  <li><a href="why.php" class="smooth-scroll">Why us?</a></li>-->
-                            <li><a href="how.php" class="smooth-scroll">How it works </a></li>
+                            <li><a href="how.php" class="smooth-scroll"><?php echo gettext("How it works");?> </a></li>
                            <!-- <li><a href="fees.php" class="smooth-scroll">Fees </a></li>-->
-                           <li><a href="faq.php" class="smooth-scroll"> Help ?</a></li>
+                           <li><a href="faq.php" class="smooth-scroll"> <?php echo gettext("Help?");?></a></li>
                          
                             
     <!--                        
@@ -167,18 +172,18 @@ include ('food_admin/inc/database.php');
 
                           <?php if($customer_id == ""){ ?>
 
-                            <li><a href="signup.php" class="btn-nav btn-green smooth-scroll">Sign up</a></li>
-                            <li><a href="login.php" class="btn-nav btn-dark smooth-scroll">Log in</a></li>
+                            <li><a href="signup.php" class="btn-nav btn-green smooth-scroll"><?php echo gettext("Sign up");?></a></li>
+                            <li><a href="login.php" class="btn-nav btn-dark smooth-scroll"><?php echo gettext("Log in");?></a></li>
                             
                           <?php }else{ ?>
                             
                                 <li class="dropdown">
-                                 <a id="dLabel" data-toggle="dropdown" data-target="#" href="#" style="text-transform: capitalize;">Welcome: <?php echo $username; ?> <span class="caret"></span></a>
+                                 <a id="dLabel" data-toggle="dropdown" data-target="#" href="#" style="text-transform: capitalize;"><?php echo gettext("Welcome: ");?><?php echo isset($username); ?> <span class="caret"></span></a>
                                    <ul class="dropdown-menu multi-level" role="menu">
-                                      <li><a href="view_orders.php">Orders</a></li>
-                                      <li><a href="account_config.php">My Account</a></li>
-                                      <li><a href="index.php">Go To New Shop</a></li>
-                                      <li><a href="logout.php">Logout</a></li>
+                                       <li><a href="view_orders.php"><?php echo gettext("Orders");?></a></li>
+                                       <li><a href="account_config.php"><?php echo gettext("My Account");?></a></li>
+                                       <li><a href="index.php"><?php echo gettext("Go To New Shop");?></a></li>
+                                       <li><a href="logout.php"><?php echo gettext("Logout");?></a></li>
                                     </ul>
                                   </li>
                             <?php } ?>
@@ -222,10 +227,15 @@ else
 
 }
 ?>  
-<span>My cart <br/><span style="font-size:12px;"><?php $view_pricessws_value?>€</span></span> 
+<span><?php echo _("My cart");?> <br/><span style="font-size:12px;"><?php $view_pricessws_value?>€</span></span>
 </a>
 </div>
 </li>
+                            <li class="dropdown"><a id="dLabel" data-toggle="dropdown" data-target="#" href="#" style="text-transform: capitalize;"><?php echo _("Language");?></a>
+                                <ul class="dropdown-menu multi-level" role="menu">
+                                    <li><a href="?lang=fr_FR">FR <img src="../images/fr.jpg"/></a></li>
+                                    <li><a href="?lang=en_US">EN <img src="../images/en.png"/></a></li>
+                                </ul></li>
                            
                         </ul><!-- /End Menu Links -->
                     </div><!-- /End Navbar Collapse -->
@@ -238,7 +248,7 @@ else
 
    <script language="JavaScript">
 function confirmation(){
-    var sure = confirm("Are you sure you want to delete this record ?");
+    var sure = confirm("<?php echo _("Are you sure you want to delete this record ?");?>");
     if(!sure)
             return false;
     else
@@ -261,6 +271,44 @@ error: function(){ }
 });
 }
 
-</script>     
-        
-        
+</script>
+
+
+<?php/*
+// si langue déclarée par cookie et qu'il ny a pas de requete
+// pour le choix de la langue alors on choisit le cookie
+if (isset ($_COOKIE['locale']) && $_GET['lang'] != 'fr_FR' && $_GET['lang'] != 'en_US')
+{
+    $lang = $_COOKIE['locale'];
+}
+// le choix de la langue est déclaré par url
+else if ($_GET['lang'] == 'en_US' || $_GET['lang'] == 'fr_FR')
+{
+    $lang = $_GET['lang'];
+    set_cookie($lang);
+}
+// si aucune langue n'est déclarée on tente de reconnaitre
+// la langue par défaut du navigateur
+else
+{
+    $lang = substr($HTTP_SERVER_VARS['HTTP_ACCEPT_LANGUAGE'],0,2);
+    set_cookie($lang);
+}
+
+
+function set_cookie($lang)
+{
+//définition de la durée du cookie (1 an)
+    $expire = 365*24*3600;
+//enregistrement du cookie au nom de CHOIXlang + détection si erreur
+    if (setcookie("locale", $lang, time() + $expire) != TRUE)
+    {
+//     	        echo 'Le cookie na pas marché<br />';
+    }
+    else
+    {
+        setcookie("locale", $lang, time() + $expire);
+//		echo 'Le cookie a marché<br />';
+    }
+}
+?>

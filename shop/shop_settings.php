@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
 
 
 
@@ -34,23 +35,23 @@
                 <div class="row">
 					<div class="col-md-3">&nbsp;</div>
                    <div class="col-md-6">
-                        <h4 class="m-t-lg m-b-0 text-left center-md">Shop Information</h4>
+                        <h4 class="m-t-lg m-b-0 text-left center-md"><?php echo gettext("Shop Information");?></h4>
 						<br />
                         <div class="form-horizontal" role="form">
                             <div class="form-group">
-                                <label for="sfEmail">Shop Name</label>
+                                <label for="sfEmail"><?php echo gettext("Shop Name");?></label>
                                 <input type="email" class="form-control" id="shop_name" name="shop_name" value="<?php echo $shop_name; ?>" placeholder="Enter your shop name" required>
                             </div>
                             <div class="form-group">
-                                <label for="sfPassword">Shop Address</label>
+                                <label for="sfPassword"><?php echo gettext("Shop Address");?></label>
                                  <textarea type="email" class="form-control" id="shop_address" name="shop_address" placeholder="Enter your shop address" required><?php echo $shop_address; ?></textarea>
                             </div>
 							
 							
 							  <div class="form-group">
-                                <label for="sfEmail">Shop Country</label>
+                                <label for="sfEmail"><?php echo gettext("Shop Country");?></label>
 <select name="country_id" id="country_id" class="form-control" required>
-<option  value="" selected="selected">Select a Country</option>
+<option  value="" selected="selected"><?php echo gettext("Select a Country");?></option>
 <?php
 $query_disp="SELECT * FROM country ORDER BY country_name asc";
 $result_disp = mysql_query($query_disp);
@@ -67,11 +68,11 @@ while($query_data = mysql_fetch_array($result_disp))
 
 	
 							  <div class="form-group">
-                                <label for="sfEmail">Shop City</label>
+                                <label for="sfEmail"><?php echo gettext("Shop City");?></label>
 								
 								
 <select name="city_id" id="city_id" class="form-control">
-<option value="" selected="selected">Select a City</option>
+<option value="" selected="selected"><?php echo gettext("Select a City");?></option>
 </select>
 
 
@@ -83,7 +84,7 @@ while($query_data = mysql_fetch_array($result_disp))
 							
 							
 							<div class="form-group">
-                                <label for="sfPassword">Shop LOGO</label>
+                                <label for="sfPassword"><?php echo gettext("Shop LOGO");?></label>
                                 <!-- <input type="file" class="form-control" id="shop_logo" name="shop_logo" required>-->
 								 
 								 
@@ -107,7 +108,7 @@ while($query_data = mysql_fetch_array($result_disp))
                             </div>
 							
 							<div class="form-group">
-                                <label for="sfPassword">Shop Banner</label>
+                                <label for="sfPassword"><?php echo gettext("Shop Banner");?></label>
 
 								
 								
@@ -134,7 +135,7 @@ while($query_data = mysql_fetch_array($result_disp))
                                 </div>
                             </div>-->
                             <div class="form-group">
-								<button type="submit"  onclick="valiDShop()" class="btn btn-blue">UPDATE</button>
+								<button type="submit"  onclick="valiDShop()" class="btn btn-blue"><?php echo gettext("UPDATE");?></button>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
-<?php include("header.php"); ?>
+<?php include("header.php");
+require_once "../localization.php"?>
 
 
 
@@ -26,14 +27,14 @@
                 <div class="row">
 					<div class="col-md-1">&nbsp;</div>
                    <div class="col-md-10">
-                        <h4 class="m-t-lg m-b-0 text-left center-md">My Categories</h4>
+                        <h4 class="m-t-lg m-b-0 text-left center-md"><?php echo gettext("My Categories");?></h4>
 						<br />
 						
 						<div class="table-responsive">
                         <table class="table">
 						
 						<tr>
-						<td><strong>Category</strong></td>
+						<td><strong><?php echo gettext("Category");?></strong></td>
 						<td><strong>Action</strong></td>
 						</tr>
 						
@@ -49,7 +50,7 @@
 						
 						<tr>
 						<td><?php echo $category_name; ?></td>
-						<td><a href="add_category.php?category_id=<?php echo $category_id; ?>">Edit</a> - <a onclick="return confirmation()" href="delete.php?category_id=<?php echo $category_id; ?>">Delete</a></td>
+						<td><a href="add_category.php?category_id=<?php echo $category_id; ?>"><?php echo gettext("Edit");?></a> - <a onclick="return confirmation()" href="delete.php?category_id=<?php echo $category_id; ?>">Delete</a></td>
 						</tr>
 						
 						

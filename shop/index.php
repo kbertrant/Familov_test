@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-
+<?php require_once "../localization.php";?>
 
 
 
@@ -14,9 +14,9 @@
 
             <div class="col-sm-8 col-sm-offset-2 col-md-12 col-md-offset-0">
 
-               <p class="leadx  " style="color:#ffffff; font-size:26px;line-height:35px; font-weight:700; margin-top: 50px;">No matter where you are <br/> be present for everyday event <br/> </p>
+               <p class="leadx  " style="color:#ffffff; font-size:26px;line-height:35px; font-weight:700; margin-top: 50px;"><?php echo gettext("No matter where you are");?> <br/> <?php echo gettext("be present for everyday event");?> <br/> </p>
 
-               <p class="m-b-md" style="color:#ffffff;">It is not always easy to send money home. We offer you  a new way<br/> to help your family and be sure that they are well cared.<br/>Cheaper. Safer. Better. </p> 
+               <p class="m-b-md" style="color:#ffffff;"><?php echo gettext("It is not always easy to send money home. We offer you  a new way");?> <br/><?php echo gettext(" to help your family and be sure that they are well cared.");?><br/> <?php echo gettext("Cheaper. Safer. Better. ");?></p>
                
               
 
@@ -31,13 +31,13 @@
                      <div class="form-group">
 
                          <!--<input type="text" class="form-control cm-flag"  placeholder="Cameroun " name="MERGE1" required>-->
-                         <div style="text-align:center"><h5>Quick and easy select a Shop near Home!</h5></div>
+                         <div style="text-align:center"><h5><?php echo gettext("Quick and easy select a Shop near Home!");?></h5></div>
                          <br/>
 
 
                          <select name="country_id" id="country_id" class="form-control " required>
 
-                            <option value="" selected="selected"> <i class="fa fa-star"></i>Reciever´s country</option>
+                            <option value="" selected="selected"> <i class="fa fa-star"></i><?php echo gettext("Reciever´s country");?></option>
 
                             <?php
 
@@ -51,7 +51,7 @@
 
                                 ?>
 
-                                <option value="<?php echo $query_data["country_id"]; ?>"<?php if ($query_data["country_id"]==$country_id) {?> selected="selected"<?php } ?>><?php echo $query_data["country_name"]; ?></option>
+                                <option value="<?php $country_id=""; echo $query_data["country_id"]; ?>"<?php if ($query_data["country_id"]==$country_id) {?> selected="selected"<?php } ?>><?php echo $query_data["country_name"]; ?></option>
 
                                 <?php } ?>
 
@@ -69,7 +69,7 @@
 
                             <select name="city_id" id="city_id" class="form-control selectpicker">
 
-                                <option value="" selected="selected">Reciever´s city</option>
+                                <option value="" selected="selected"><?php gettext('Reciever´s city');?></option>
 
                             </select>
 
@@ -84,9 +84,7 @@
 
 
                             <select name="shop_id" id="shop_id" class="form-control shop" >
-
-                                <option value="" selected="selected">Choose a shop</option>
-
+                                <option value="" selected="selected"><?php echo gettext("Choose a shop");?></option>
                             </select>
 
 
@@ -101,7 +99,7 @@
 
 
 
-                        <button type="submit" id="search_shop" style="margin-top:15px;" class="btn btn-green">Order now</button>
+                        <button type="submit" id="search_shop" style="margin-top:15px;" class="btn btn-green"><?php echo gettext("Order now");?></button>
 
                     </div>
 
@@ -164,11 +162,11 @@
                         <div class="section-header text-center wow fadeIn">
 						     
                               
-                     <h2>How it works</h2>
+                     <h2><?php echo gettext("How it works");?></h2>
 
 
 
-                     <p class="lead">Send money home is not  easy.<br/>Buy online here and your family <br/>Withdraws the order home. </p>
+                     <p class="lead"><?php echo gettext("Send money home is not  easy.");?><br/><?php echo gettext("Buy online here and your family");?> <br/><?php echo gettext("Withdraws the order home.");?> </p>
                         </div>
                     </div>
                 </div><!-- /End Section Header -->
@@ -177,8 +175,8 @@
                         <div class="gt_main_services bg_3">
                             <i class="icon-cart"></i>
                              <h2><span class="number">1</span></h2>
-                            <h5>Order online </h5>
-                            <p>Fill your cart in a store  near home and give us recievers name and phone. </p>
+                            <h5><?php echo gettext("Order online");?> </h5>
+                            <p><?php echo gettext("Fill your cart in a store  near home and give us recievers name and phone. ");?></p>
                             
                         </div>
                     </div>
@@ -187,8 +185,8 @@
                         <div class="gt_main_services bg_3">
                             <i class="icon-wallet2"></i>
                              <h2><span class="number">2</span></h2>
-                            <h5>Pay securely</h5>
-                            <p>You pay easily and securely with Credit Card, PayPal or direct debit </p>
+                            <h5><?php echo gettext("Pay securely");?></h5>
+                            <p><?php echo gettext("You pay easily and securely with Credit Card, PayPal or direct debit");?> </p>
                            
                         </div>
                     </div>
@@ -197,16 +195,16 @@
                         <div class="gt_main_services bg_3">
                             <i class="icon-envelope"></i>
                              <h2><span class="number">3</span></h2>
-                            <h5>Code per SMS </h5>
-                            <p> We send local store your order details and send an <b>CODE per SMS</b> to recievers</p>
+                            <h5><?php echo gettext("Code per SMS");?> </h5>
+                            <p><?php echo gettext(" We send local store your order details and send an");?> <b><?php echo gettext("CODE per SMS");?></b><?php echo gettext(" to recievers");?></p>
                             
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="gt_main_services bg_3">
                              <img src="images/flat7.png" width="145px" alt="">
-                            <h5>  Get delivery </h5>
-                            <p>Order is prepared and  your family withdraw the order in Store or get delivery </p>
+                            <h5> <?php echo gettext(" Get delivery");?> </h5>
+                            <p> <?php echo gettext("Order is prepared and  your family withdraw the order in Store or get delivery");?> </p>
                             
                         </div>
                     </div>
@@ -264,7 +262,7 @@
 
 
 
-        <a href="signup.php" class="btn  btn-green ">Create your account</a>
+        <a href="signup.php" class="btn  btn-green "><?php echo gettext("Create your account");?></a>
 
     </div><!-- /End Container -->
 
@@ -300,9 +298,9 @@
 
                             <div class="m-b-md text-center wow fadeIn">
 
-                                <h2>What People Are Saying About Us</h2>
+                                <h2><?php echo gettext("What People Are Saying About Us");?></h2>
 
-                                <p class="lead">Meet our happy clients and find out why <br/> Familov is their preferred choice.</p>    
+                                <p class="lead"><?php echo gettext("Meet our happy clients and find out why");?> <br/> <?php echo gettext("Familov is their preferred choice.");?></p>
 
                             </div>
 
@@ -324,7 +322,7 @@
 
                                     <figure><img src="images/testimonial1.jpg" class="img-circle" alt="" width="90" height="90"> </figure>
 
-                                    <p>I order food for my mom on Familov from Germany to Cameroon. It is faster, cheaper and more reliable than anything I‘ve ever tried before. <br><br/>  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                                    <p><?php echo gettext("I order food for my mom on Familov from Germany to Cameroon. It is faster, cheaper and more reliable than anything I‘ve ever tried before.");?> <br><br/>  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
 
 
 
@@ -332,7 +330,7 @@
 
                                         Loretta 
 
-                                        <span class="cite-info p-opacity ">Student,Germany</span> 
+                                        <span class="cite-info p-opacity "><?php echo gettext("Student,Germany");?></span>
 
                                     </div>
 
@@ -348,13 +346,13 @@
 
                                     <figure><img src="images/testimonial2.jpg" alt="" class="img-circle" width="90" height="90"> </figure>
 
-                                    <p>It works very well and what a good idea it is.One of those things where everybody says „Why didn‘t I think of this before?“. It is just amazing.<br><br/>  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                                    <p><?php echo gettext("It works very well and what a good idea it is.One of those things where everybody says „Why didn‘t I think of this before?“. It is just amazing.");?><br><br/>  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
 
                                     <div class="cite text-edit">
 
                                         Hervé
 
-                                        <span class="cite-info p-opacity">Engineer, Germany</span>
+                                        <span class="cite-info p-opacity"><?php echo gettext("Engineer, Germany");?></span>
 
                                     </div>
 
@@ -370,13 +368,13 @@
 
                                     <figure><img src="images/testimonial3.jpg" alt="" class="img-circle" width="90" height="90"> </figure>
 
-                                    <p>I really love and enjoy this way to help my family at home. The notifications and trackability of my orders are giving me peace of mind. Thank you.<br><br/>  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                                    <p><?php echo gettext("I really love and enjoy this way to help my family at home. The notifications and trackability of my orders are giving me peace of mind. Thank you.");?><br><br/>  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
 
                                     <div class="cite text-edit">
 
                                         Annitta 
 
-                                        <span class="cite-info p-opacity">Nurse, France </span>
+                                        <span class="cite-info p-opacity"><?php echo gettext("Nurse, France");?> </span>
 
                                     </div>
 
@@ -397,7 +395,7 @@
 
 		<div class="row logo-footer-wrapper">
 			<div class="col-sm-3 logo-footer-payoff">
-				featured on:
+                <?php echo gettext("featured on:");?>
 
 			</div>
 			<div class="col-sm-9">
@@ -438,7 +436,7 @@
 
 
 
- <h4 style="color:#ffffff"> "I lives in Germany since 4 years and I work so hard everyday to help my family, but for many reasons is not always easy for me to send money home. Familov offer me a new way to take care of my loves and now I really enjoy because I can do more for them  everyday ."</h4>
+ <h4 style="color:#ffffff"><?php echo gettext("I lives in Germany since 4 years and I work so hard everyday to help my family, but for many reasons is not always easy for me to send money home. Familov offer me a new way to take care of my loves and now I really enjoy because I can do more for them  everyday .");?></h4>
 
                  <!--    <p class="lead" style="color:#ffffff">
               
@@ -471,7 +469,7 @@
 
 
 
-        <a href="signup.php" class="btn  btn-green ">Be a Familover</a>
+        <a href="signup.php" class="btn  btn-green "><?php echo gettext("Be a Familover");?></a>
 
     </div><!-- /End Container -->
 

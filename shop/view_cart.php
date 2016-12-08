@@ -40,12 +40,13 @@ if($num_dishmenusw != 0){ ?>
 <?php
 	$sql = "SELECT GROUP_CONCAT(order_id SEPARATOR ', ') as order_id, sum(quantity) as quantity, customer_id, ip_address, product_id, date_time, random_rick FROM orders where random_rick != 'expire' and ip_address  = '$ip_address' GROUP BY product_id";
     $query = mysql_query($sql) or die(mysql_error());
+    $view_quantity = $view_prices = 0;
     while ($result = mysql_fetch_array($query)) {
-			$order_id = $result[order_id];
-			$product_id = $result[product_id];
-			$quantity = $result[quantity];
-			$random_rick = $result[random_rick];
-			$date_time = $result[date_time];
+			$order_id = $result['order_id'];
+			$product_id = $result['product_id'];
+			$quantity = $result['quantity'];
+			$random_rick = $result['random_rick'];
+			$date_time = $result['date_time'];
 ?>						
 		
 <?php $view_quantity += $quantity; ?>
@@ -70,6 +71,7 @@ if($num_dishmenusw != 0){ ?>
 
 				
 		<?php
+		$category_id = !empty($category_id)?$category_id:1;
 	$sqlerersingcateg = "SELECT * from categories where category_id = '$category_id'";
     $quereyeraigncet = mysql_query($sqlerersingcateg) or die(mysql_error());
     while ($reseultersingcar = mysql_fetch_array($quereyeraigncet)) {

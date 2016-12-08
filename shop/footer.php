@@ -961,10 +961,10 @@ if(isset($_GET['category_id']) != ""){
                                 data:userdata1,
                                 url: 'refresh_cart.php',
                                 success: function(result){
-                                    var userdata= "/"+country_id+"/"+city_id+"/"+shop_id;
-                                    window.location='product'+ userdata;
-                                    //var userdata= "country_id="+country_id+"&city_id="+city_id+"&shop_id="+shop_id;
-                                    //window.location='product.php?'+ userdata;
+                                    //var userdata= "/"+country_id+"/"+city_id+"/"+shop_id;
+                                    //window.location='product'+ userdata;
+                                    var userdata= "country_id="+country_id+"&city_id="+city_id+"&shop_id="+shop_id;
+                                    window.location='product.php?'+ userdata;
                                 }
                             });
 
@@ -975,10 +975,10 @@ if(isset($_GET['category_id']) != ""){
 
 
                     }else{
-                        var userdata78= "/"+country_id+"/"+city_id+"/"+shop_id;
-                        window.location='product'+ userdata78;
-                        //	var userdata78= "country_id="+country_id+"&city_id="+city_id+"&shop_id="+shop_id;
-                        //	window.location='product.php?'+ userdata78;
+                        //var userdata78= "/"+country_id+"/"+city_id+"/"+shop_id;
+                        //window.location='product'+ userdata78;
+                        var userdata78= "country_id="+country_id+"&city_id="+city_id+"&shop_id="+shop_id;
+                        window.location='product.php?'+ userdata78;
                     }
 
 
@@ -1050,8 +1050,8 @@ if(isset($_GET['category_id']) != ""){
 $sql = "SELECT GROUP_CONCAT(order_id SEPARATOR ', ') as order_id, sum(quantity) as quantity, customer_id, ip_address, product_id, date_time, random_rick FROM orders where random_rick != 'expire' and ip_address  = '$ip_address' GROUP BY product_id";
 $query = mysql_query($sql) or die(mysql_error());
 while ($result = mysql_fetch_array($query)) {
-    $product_id = $result[product_id];
-    $quantity = $result[quantity];
+    $product_id = $result['product_id'];
+    $quantity = $result['quantity'];
     ?>
 
 

@@ -201,12 +201,13 @@ $customer_id = isset($_SESSION['customer_id']);
 <?php
     $sqler = "SELECT GROUP_CONCAT(order_id SEPARATOR ', ') as order_id, sum(quantity) as quantity, customer_id, ip_address, product_id, date_time, random_rick FROM orders where random_rick != 'expire' and ip_address  = '$ip_address' GROUP BY product_id";
     $queryee = mysql_query($sqler) or die(mysql_error());
+    $view_pricessws = 0;
     while ($resulterr = mysql_fetch_array($queryee)) {
-            $order_id = $resulterr[order_id];
-            $product_idrt = $resulterr[product_id];
-            $quantitywsss = $resulterr[quantity];
-            $random_rick = $resulterr[random_rick];
-            $date_time = $resulterr[date_time];
+            $order_id = $resulterr['order_id'];
+            $product_idrt = $resulterr['product_id'];
+            $quantitywsss = $resulterr['quantity'];
+            $random_rick = $resulterr['random_rick'];
+            $date_time = $resulterr['date_time'];
 
     $sqlerersingprty = "SELECT product_id, product_name,product_image,product_price_currency_id,product_prices from products where product_id = '$product_idrt'  GROUP BY product_id";
     $quereyeraignphj = mysql_query($sqlerersingprty) or die(mysql_error());
